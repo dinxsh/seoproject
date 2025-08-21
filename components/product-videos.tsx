@@ -3,11 +3,11 @@
 export function ProductVideos() {
   const videos = [
     {
-      id: "VIDEO_ID_DEMO",
+      id: "PQgeLzoRz9g",
       title: "Inverter Product Demo",
     },
     {
-      id: "VIDEO_ID_INSTALL",
+      id: "PQgeLzoRz9g",
       title: "Professional Installation Walkthrough",
     },
   ]

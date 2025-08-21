@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -133,9 +134,9 @@ export default function HomePage() {
       <section id="products" className="py-20 px-4">
         <div className="container mx-auto">
           <div className="text-center mb-16 animate-in slide-in-from-top duration-700">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Inverter Range</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured Products</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              From residential to commercial applications, we have the perfect inverter solution for every requirement.
+              Discover our most popular inverter solutions, handpicked for reliability and performance.
             </p>
           </div>
 
@@ -143,37 +144,43 @@ export default function HomePage() {
             <Card className="hover:shadow-xl transition-all duration-500 border-2 hover:border-primary/20 hover:scale-105 hover:-translate-y-2 group animate-in slide-in-from-left duration-700">
               <div className="h-48 bg-gray-100 rounded-t-lg overflow-hidden">
                 <img
-                  src="/placeholder-re65o.png"
-                  alt="Home Inverter - வீட்டு இன்வர்டர்"
+                  src="/products/luminous/luminous-default.png"
+                  alt="LUMINOUS Zelio 1100 - 900VA pure sine wave smart display inverter - வீட்டு இன்வர்டர்"
                   title="வீட்டு பயன்பாட்டிற்கான இன்வர்டர் - Home Inverter for residential use"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
               <CardHeader>
                 <Badge className="w-fit mb-2 transition-colors duration-200 group-hover:bg-primary group-hover:text-primary-foreground">
-                  Residential
+                  LUMINOUS
                 </Badge>
-                <CardTitle className="text-2xl group-hover:text-primary transition-colors duration-200">
-                  Home Inverters
+                <CardTitle className="text-xl group-hover:text-primary transition-colors duration-200">
+                  Zelio 1100
                 </CardTitle>
-                <CardDescription>Perfect for residential power backup</CardDescription>
+                <CardDescription>900VA, pure sine wave, smart display</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="text-3xl font-bold text-primary">₹15,000 - ₹45,000</div>
                 <ul className="space-y-2">
-                  {["1KW to 10KW capacity", "MPPT technology", "5-year warranty", "LCD display"].map((feature, i) => (
+                  {["900VA capacity", "Pure sine wave", "Smart display", "Home automation ready"].map((feature, i) => (
                     <li key={i} className="flex items-center">
                       <CheckCircle className="h-4 w-4 text-primary mr-2 transition-transform duration-200 group-hover:scale-110" />
                       {feature}
                     </li>
                   ))}
                 </ul>
-                <a href="tel:+919962861772">
-                  <Button className="w-full transition-all duration-300 hover:scale-105 hover:shadow-lg group/btn">
-                    <Phone className="mr-2 h-4 w-4 transition-transform duration-200 group-hover/btn:rotate-12" />
-                    Contact Us
-                  </Button>
-                </a>
+                <div className="space-y-4">
+                  <Link href="/products?brand=LUMINOUS">
+                    <Button className="w-full transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                      View Details
+                    </Button>
+                  </Link>
+                  <a href="tel:+919962861772">
+                    <Button variant="outline" className="w-full transition-all duration-300">
+                      <Phone className="mr-2 h-4 w-4" />
+                      Call Now
+                    </Button>
+                  </a>
+                </div>
               </CardContent>
             </Card>
 
@@ -183,80 +190,95 @@ export default function HomePage() {
               </Badge>
               <div className="h-48 bg-gray-100 rounded-t-lg overflow-hidden">
                 <img
-                  src="/placeholder-2vrz9.png"
-                  alt="Business Inverter - வணிக இன்வர்டர்"
-                  title="வணிக பயன்பாட்டிற்கான இன்வர்டர் - Business Inverter for commercial use"
+                  src="/products/microtek/microtek-default.png"
+                  alt="MICROTEK Online UPS 2kVA - High Frequency Online UPS IGBT Based 72V"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
               <CardHeader>
                 <Badge className="w-fit mb-2 transition-colors duration-200 group-hover:bg-primary group-hover:text-primary-foreground">
-                  Commercial
+                  MICROTEK
                 </Badge>
-                <CardTitle className="text-2xl group-hover:text-primary transition-colors duration-200">
-                  Business Inverters
+                <CardTitle className="text-xl group-hover:text-primary transition-colors duration-200">
+                  Online UPS 2kVA
                 </CardTitle>
-                <CardDescription>Ideal for offices and small businesses</CardDescription>
+                <CardDescription>High Frequency Online UPS, IGBT Based, 72V</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="text-3xl font-bold text-primary">₹50,000 - ₹1,50,000</div>
                 <ul className="space-y-2">
-                  {["10KW to 50KW capacity", "Advanced monitoring", "5-year warranty", "Remote monitoring"].map(
-                    (feature, i) => (
-                      <li key={i} className="flex items-center">
-                        <CheckCircle className="h-4 w-4 text-primary mr-2 transition-transform duration-200 group-hover:scale-110" />
-                        {feature}
-                      </li>
-                    ),
-                  )}
+                  {["2kVA capacity", "IGBT technology", "72V system", "Commercial grade"].map((feature, i) => (
+                    <li key={i} className="flex items-center">
+                      <CheckCircle className="h-4 w-4 text-primary mr-2 transition-transform duration-200 group-hover:scale-110" />
+                      {feature}
+                    </li>
+                  ))}
                 </ul>
-                <a href="tel:+919962861772">
-                  <Button className="w-full transition-all duration-300 hover:scale-105 hover:shadow-lg group/btn">
-                    <Phone className="mr-2 h-4 w-4 transition-transform duration-200 group-hover/btn:rotate-12" />
-                    Contact Us
-                  </Button>
-                </a>
+                <div className="space-y-4">
+                  <Link href="/products?brand=MICROTEK">
+                    <Button className="w-full transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                      View Details
+                    </Button>
+                  </Link>
+                  <a href="tel:+919962861772">
+                    <Button variant="outline" className="w-full transition-all duration-300">
+                      <Phone className="mr-2 h-4 w-4" />
+                      Call Now
+                    </Button>
+                  </a>
+                </div>
               </CardContent>
             </Card>
 
             <Card className="hover:shadow-xl transition-all duration-500 border-2 hover:border-primary/20 hover:scale-105 hover:-translate-y-2 group animate-in slide-in-from-right duration-700 delay-400">
               <div className="h-48 bg-gray-100 rounded-t-lg overflow-hidden">
                 <img
-                  src="/industrial-power-inverter.png"
-                  alt="Industrial Inverter - தொழிற்சாலை இன்வர்டர்"
-                  title="தொழிற்சாலை பயன்பாட்டிற்கான இன்வர்டர் - Industrial Inverter for heavy-duty use"
+                  src="/products/sf-sonic/sf-sonic-default.png"
+                  alt="SF SONIC Solar Hybrid Inverter 2 - Advanced solar hybrid backup optimization"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
               <CardHeader>
                 <Badge className="w-fit mb-2 transition-colors duration-200 group-hover:bg-primary group-hover:text-primary-foreground">
-                  Industrial
+                  SF SONIC
                 </Badge>
-                <CardTitle className="text-2xl group-hover:text-primary transition-colors duration-200">
-                  Industrial Inverters
+                <CardTitle className="text-xl group-hover:text-primary transition-colors duration-200">
+                  Solar Hybrid Inverter 2
                 </CardTitle>
-                <CardDescription>Heavy-duty solutions for large installations</CardDescription>
+                <CardDescription>Advanced solar hybrid, backup optimization</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="text-3xl font-bold text-primary">₹2,00,000+</div>
                 <ul className="space-y-2">
-                  {["50KW+ capacity", "Grid-tie capability", "10-year warranty", "24/7 monitoring"].map(
-                    (feature, i) => (
-                      <li key={i} className="flex items-center">
-                        <CheckCircle className="h-4 w-4 text-primary mr-2 transition-transform duration-200 group-hover:scale-110" />
-                        {feature}
-                      </li>
-                    ),
-                  )}
+                  {["Solar hybrid", "Backup optimization", "Eco-friendly", "Advanced features"].map((feature, i) => (
+                    <li key={i} className="flex items-center">
+                      <CheckCircle className="h-4 w-4 text-primary mr-2 transition-transform duration-200 group-hover:scale-110" />
+                      {feature}
+                    </li>
+                  ))}
                 </ul>
-                <a href="tel:+919962861772">
-                  <Button className="w-full transition-all duration-300 hover:scale-105 hover:shadow-lg group/btn">
-                    <Phone className="mr-2 h-4 w-4 transition-transform duration-200 group-hover/btn:rotate-12" />
-                    Contact Us
-                  </Button>
-                </a>
+                <div className="space-y-4">
+                  <Link href="/products?brand=SF SONIC">
+                    <Button className="w-full transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                      View Details
+                    </Button>
+                  </Link>
+                  <a href="tel:+919962861772">
+                    <Button variant="outline" className="w-full transition-all duration-300">
+                      <Phone className="mr-2 h-4 w-4" />
+                      Call Now
+                    </Button>
+                  </a>
+                </div>
               </CardContent>
             </Card>
+          </div>
+          
+          <div className="text-center mt-12 animate-in slide-in-from-bottom duration-700 delay-600">
+            <Link href="/products">
+              <Button size="lg" variant="outline" className="text-lg px-8 py-4 hover:scale-105 transition-all duration-300">
+                Browse All Products
+                <span className="ml-2">→</span>
+              </Button>
+            </Link>
           </div>
         </div>
       </section>

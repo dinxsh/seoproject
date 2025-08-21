@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://your-domain.com"),
+  metadataBase: new URL("https://apexpowerbatteries.in"),
   alternates: {
     canonical: "/",
   },
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: "Apex Inverter India | Best Inverter Solutions | Call +91 9962861772",
     description:
       "Leading inverter supplier in India. Premium quality power backup inverters for home & commercial use. Expert installation & 24/7 support.",
-    url: "https://your-domain.com",
+    url: "https://apexpowerbatteries.in",
     siteName: "Apex Inverter India",
     locale: "en_IN",
     type: "website",
@@ -69,7 +69,7 @@ export default function RootLayout({
               description:
                 "Leading inverter supplier in India with premium quality power backup products and expert installation services.",
               telephone: "+91-9962861772",
-              url: "https://your-domain.com",
+              url: "https://apexpowerbatteries.in",
               address: {
                 "@type": "PostalAddress",
                 addressCountry: "IN",

@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://your-domain.com/sitemap.xml
+Sitemap: https://apexpowerbatteries.in/sitemap.xml
 
 # Disallow admin or private areas
 Disallow: /admin/
@@ -13,7 +13,6 @@ Disallow: /api/
 Allow: /about/
 Allow: /products/
 Allow: /services/
-Allow: /offers/
 Allow: /contact/
 
 # Crawl delay (optional)

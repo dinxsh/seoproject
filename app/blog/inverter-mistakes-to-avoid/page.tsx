@@ -87,7 +87,7 @@ export default function InverterMistakesPage() {
               dateModified: "2024-05-01",
               author: { "@type": "Organization", name: "Apex Inverter India" },
               publisher: { "@type": "Organization", name: "Apex Inverter India" },
-              mainEntityOfPage: { "@type": "WebPage", "@id": "https://your-domain.com/blog/inverter-mistakes-to-avoid" }
+              mainEntityOfPage: { "@type": "WebPage", "@id": "https://apexpowerbatteries.in/blog/inverter-mistakes-to-avoid" }
             })
           }}
         />

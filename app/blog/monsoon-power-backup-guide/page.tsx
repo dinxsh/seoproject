@@ -78,7 +78,7 @@ export default function MonsoonGuidePage() {
         <footer className="mt-12 md:mt-14">
           <div className="flex items-center justify-between flex-wrap gap-3">
             <a href="/services" className="text-primary font-medium">Book Waterproofing</a>
-            <a href="/offers" className="text-primary font-medium">Seasonal Offer</a>
+            <span className="text-muted-foreground">Call for current deals</span>
             <a href="tel:+919962861772" className="inline-flex items-center bg-primary text-primary-foreground px-4 py-2 rounded-lg hover:bg-primary/90">Call Now: +91 9962861772</a>
           </div>
           <div className="mt-4">
@@ -96,7 +96,7 @@ export default function MonsoonGuidePage() {
               dateModified: "2024-07-01",
               author: { "@type": "Organization", name: "Apex Inverter India" },
               publisher: { "@type": "Organization", name: "Apex Inverter India" },
-              mainEntityOfPage: { "@type": "WebPage", "@id": "https://your-domain.com/blog/monsoon-power-backup-guide" }
+              mainEntityOfPage: { "@type": "WebPage", "@id": "https://apexpowerbatteries.in/blog/monsoon-power-backup-guide" }
             })
           }}
         />

@@ -66,7 +66,7 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
             </div>
             <aside className="space-y-3">
               <a href="tel:+919962861772" className="block w-full text-center bg-primary text-primary-foreground px-4 py-3 rounded-lg hover:bg-primary/90">Call Now: +91 9962861772</a>
-              <a href="/offers" className="block w-full text-center border px-4 py-3 rounded-lg hover:border-primary hover:bg-primary/5">See Offers</a>
+              
               <a href="/contact" className="block w-full text-center border px-4 py-3 rounded-lg hover:border-primary hover:bg-primary/5">Get Free Quote</a>
             </aside>
           </div>

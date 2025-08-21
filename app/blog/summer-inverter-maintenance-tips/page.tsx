@@ -99,7 +99,7 @@ export default function SummerMaintenancePage() {
               dateModified: "2024-06-01",
               author: { "@type": "Organization", name: "Apex Inverter India" },
               publisher: { "@type": "Organization", name: "Apex Inverter India" },
-              mainEntityOfPage: { "@type": "WebPage", "@id": "https://your-domain.com/blog/summer-inverter-maintenance-tips" }
+              mainEntityOfPage: { "@type": "WebPage", "@id": "https://apexpowerbatteries.in/blog/summer-inverter-maintenance-tips" }
             })
           }}
         />

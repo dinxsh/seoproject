@@ -74,7 +74,7 @@ export default function WinterPerformancePage() {
         <footer className="mt-12 md:mt-14">
           <div className="flex items-center justify-between flex-wrap gap-3">
             <a href="/services" className="text-primary font-medium">Book Winter Check</a>
-            <a href="/offers" className="text-primary font-medium">See Offers</a>
+            <span className="text-muted-foreground">Call for current deals</span>
             <a href="tel:+919962861772" className="inline-flex items-center bg-primary text-primary-foreground px-4 py-2 rounded-lg hover:bg-primary/90">Call Now: +91 9962861772</a>
           </div>
           <div className="mt-4">
@@ -92,7 +92,7 @@ export default function WinterPerformancePage() {
               dateModified: "2024-12-01",
               author: { "@type": "Organization", name: "Apex Inverter India" },
               publisher: { "@type": "Organization", name: "Apex Inverter India" },
-              mainEntityOfPage: { "@type": "WebPage", "@id": "https://your-domain.com/blog/winter-inverter-performance" }
+              mainEntityOfPage: { "@type": "WebPage", "@id": "https://apexpowerbatteries.in/blog/winter-inverter-performance" }
             })
           }}
         />

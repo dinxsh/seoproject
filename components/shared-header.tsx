@@ -15,7 +15,6 @@ export function SharedHeader() {
     { href: "/services", label: "Services" },
     { href: "/locations", label: "Locations" },
     { href: "/blog", label: "Blog" },
-    { href: "/offers", label: "Offers" },
     { href: "/contact", label: "Contact" },
   ]
 

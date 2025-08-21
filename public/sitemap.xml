@@ -1,111 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://your-domain.com/</loc>
+    <loc>https://apexpowerbatteries.in/</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/about</loc>
+    <loc>https://apexpowerbatteries.in/about</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/products</loc>
+    <loc>https://apexpowerbatteries.in/products</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/services</loc>
+    <loc>https://apexpowerbatteries.in/services</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/offers</loc>
-    <lastmod>2024-12-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://your-domain.com/contact</loc>
+    <loc>https://apexpowerbatteries.in/contact</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/blog</loc>
+    <loc>https://apexpowerbatteries.in/blog</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/blog/summer-inverter-maintenance-tips</loc>
+    <loc>https://apexpowerbatteries.in/blog/summer-inverter-maintenance-tips</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/blog/monsoon-power-backup-guide</loc>
+    <loc>https://apexpowerbatteries.in/blog/monsoon-power-backup-guide</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/blog/winter-inverter-performance</loc>
+    <loc>https://apexpowerbatteries.in/blog/winter-inverter-performance</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/blog/inverter-mistakes-to-avoid</loc>
+    <loc>https://apexpowerbatteries.in/blog/inverter-mistakes-to-avoid</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/blog/inverter-buying-guide-2025</loc>
+    <loc>https://apexpowerbatteries.in/blog/inverter-buying-guide-2025</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/blog/chennai-family-power-costs-case-study</loc>
+    <loc>https://apexpowerbatteries.in/blog/chennai-family-power-costs-case-study</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/blog/battery-care-myths-debunked</loc>
+    <loc>https://apexpowerbatteries.in/blog/battery-care-myths-debunked</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/blog/inverter-maintenance-calendar-template</loc>
+    <loc>https://apexpowerbatteries.in/blog/inverter-maintenance-calendar-template</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/locations</loc>
+    <loc>https://apexpowerbatteries.in/locations</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
-  <url><loc>https://your-domain.com/locations/anna-nagar</loc><lastmod>2024-12-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://your-domain.com/locations/t-nagar</loc><lastmod>2024-12-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://your-domain.com/locations/adyar</loc><lastmod>2024-12-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://your-domain.com/locations/velachery</loc><lastmod>2024-12-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://your-domain.com/locations/tambaram</loc><lastmod>2024-12-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://your-domain.com/locations/omr</loc><lastmod>2024-12-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://your-domain.com/locations/porur</loc><lastmod>2024-12-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://your-domain.com/locations/poonamallee</loc><lastmod>2024-12-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://your-domain.com/locations/avadi</loc><lastmod>2024-12-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://your-domain.com/locations/ambattur</loc><lastmod>2024-12-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://your-domain.com/locations/red-hills</loc><lastmod>2024-12-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://your-domain.com/locations/ennore</loc><lastmod>2024-12-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://apexpowerbatteries.in/locations/anna-nagar</loc><lastmod>2024-12-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://apexpowerbatteries.in/locations/t-nagar</loc><lastmod>2024-12-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://apexpowerbatteries.in/locations/adyar</loc><lastmod>2024-12-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://apexpowerbatteries.in/locations/velachery</loc><lastmod>2024-12-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://apexpowerbatteries.in/locations/tambaram</loc><lastmod>2024-12-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://apexpowerbatteries.in/locations/omr</loc><lastmod>2024-12-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://apexpowerbatteries.in/locations/porur</loc><lastmod>2024-12-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://apexpowerbatteries.in/locations/poonamallee</loc><lastmod>2024-12-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://apexpowerbatteries.in/locations/avadi</loc><lastmod>2024-12-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://apexpowerbatteries.in/locations/ambattur</loc><lastmod>2024-12-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://apexpowerbatteries.in/locations/red-hills</loc><lastmod>2024-12-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://apexpowerbatteries.in/locations/ennore</loc><lastmod>2024-12-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>

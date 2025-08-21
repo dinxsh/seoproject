@@ -4,14 +4,28 @@ import { Badge } from "@/components/ui/badge"
 import { Phone, CheckCircle } from "lucide-react"
 import { SharedHeader } from "@/components/shared-header"
 import { SharedFooter } from "@/components/shared-footer"
+import Image from "next/image"
+import { ProductVideos } from "@/components/product-videos"
+import { ExitIntentPopup } from "@/components/exit-intent-popup"
 
 export default function ProductsPage() {
   return (
     <div className="min-h-screen bg-background">
       <SharedHeader />
 
+      {/* Breadcrumbs */}
+      <section className="pt-16 pb-4 px-4">
+        <div className="container mx-auto">
+          <nav className="flex items-center space-x-2 text-sm text-muted-foreground">
+            <a href="/" className="hover:text-primary transition-colors">Home</a>
+            <span>/</span>
+            <span className="text-foreground">Products</span>
+          </nav>
+        </div>
+      </section>
+
       {/* Products Hero */}
-      <section className="pt-16 pb-8 px-4 animate-in fade-in duration-1000">
+      <section className="pt-8 pb-8 px-4 animate-in fade-in duration-1000">
         <div className="container mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-in slide-in-from-bottom duration-700">
             Our Inverter Range
@@ -23,16 +37,90 @@ export default function ProductsPage() {
         </div>
       </section>
 
+      {/* Brand Comparison Guide */}
+      <section className="pt-8 pb-16 px-4 bg-muted/20">
+        <div className="container mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4">Inverter Brand Comparison Guide</h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Make an informed decision with our comprehensive comparison of leading inverter brands
+            </p>
+          </div>
+          
+          <div className="bg-white rounded-lg p-6 shadow-lg">
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="border-b">
+                    <th className="text-left p-3 font-semibold">Features</th>
+                    <th className="text-center p-3 font-semibold bg-primary/10">Apex Inverter</th>
+                    <th className="text-center p-3 font-semibold">Brand A</th>
+                    <th className="text-center p-3 font-semibold">Brand B</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b">
+                    <td className="p-3 font-medium">Warranty</td>
+                    <td className="p-3 text-center bg-green-50 font-semibold">5 Years</td>
+                    <td className="p-3 text-center">3 Years</td>
+                    <td className="p-3 text-center">2 Years</td>
+                  </tr>
+                  <tr className="border-b">
+                    <td className="p-3 font-medium">Technology</td>
+                    <td className="p-3 text-center bg-green-50 font-semibold">MPPT + Hybrid</td>
+                    <td className="p-3 text-center">Basic MPPT</td>
+                    <td className="p-3 text-center">Standard</td>
+                  </tr>
+                  <tr className="border-b">
+                    <td className="p-3 font-medium">Support</td>
+                    <td className="p-3 text-center bg-green-50 font-semibold">24/7</td>
+                    <td className="p-3 text-center">Business Hours</td>
+                    <td className="p-3 text-center">Limited</td>
+                  </tr>
+                  <tr className="border-b">
+                    <td className="p-3 font-medium">Installation</td>
+                    <td className="p-3 text-center bg-green-50 font-semibold">Free</td>
+                    <td className="p-3 text-center">Paid</td>
+                    <td className="p-3 text-center">Paid</td>
+                  </tr>
+                  <tr>
+                    <td className="p-3 font-medium">Price</td>
+                    <td className="p-3 text-center bg-green-50 font-semibold">Competitive</td>
+                    <td className="p-3 text-center">Higher</td>
+                    <td className="p-3 text-center">Lower</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            
+            <div className="mt-6 text-center">
+              <p className="text-muted-foreground mb-4">
+                *Comparison based on similar capacity models. Contact us for detailed analysis.
+              </p>
+              <a
+                href="tel:+919962861772"
+                className="inline-flex items-center bg-primary text-primary-foreground px-6 py-3 rounded-lg hover:bg-primary/90 transition-all duration-300 hover:scale-105"
+              >
+                Get Expert Advice
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Products Grid */}
       <section className="pt-8 pb-16 px-4">
         <div className="container mx-auto">
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="hover:shadow-xl transition-all duration-500 border-2 hover:border-primary/20 hover:scale-105 hover:-translate-y-2 group animate-in slide-in-from-left duration-700">
-              <div className="h-48 bg-gray-100 rounded-t-lg overflow-hidden">
-                <img
+              <div className="h-48 bg-gray-100 rounded-t-lg overflow-hidden relative">
+                <Image
                   src="/placeholder-re65o.png"
-                  alt="Home Inverter"
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  alt="Home Inverter - வீட்டு இன்வர்டர்"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-110"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  priority={false}
                 />
               </div>
               <CardHeader>
@@ -69,11 +157,14 @@ export default function ProductsPage() {
               <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-primary text-primary-foreground animate-pulse">
                 Most Popular
               </Badge>
-              <div className="h-48 bg-gray-100 rounded-t-lg overflow-hidden">
-                <img
+              <div className="h-48 bg-gray-100 rounded-t-lg overflow-hidden relative">
+                <Image
                   src="/placeholder-2vrz9.png"
-                  alt="Business Inverter"
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  alt="Business Inverter - வணிக இன்வர்டர்"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-110"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  priority={false}
                 />
               </div>
               <CardHeader>
@@ -107,11 +198,14 @@ export default function ProductsPage() {
             </Card>
 
             <Card className="hover:shadow-xl transition-all duration-500 border-2 hover:border-primary/20 hover:scale-105 hover:-translate-y-2 group animate-in slide-in-from-right duration-700 delay-400">
-              <div className="h-48 bg-gray-100 rounded-t-lg overflow-hidden">
-                <img
+              <div className="h-48 bg-gray-100 rounded-t-lg overflow-hidden relative">
+                <Image
                   src="/industrial-power-inverter.png"
-                  alt="Industrial Inverter"
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  alt="Industrial Inverter - தொழிற்சாலை இன்வர்டர்"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-110"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  priority={false}
                 />
               </div>
               <CardHeader>
@@ -147,7 +241,12 @@ export default function ProductsPage() {
         </div>
       </section>
 
+      <ProductVideos />
+
       <SharedFooter />
+      
+      {/* SEO Components */}
+      <ExitIntentPopup />
     </div>
   )
 }

@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Phone, Shield, Users, Award } from "lucide-react"
 import { SharedHeader } from "@/components/shared-header"
 import { SharedFooter } from "@/components/shared-footer"
+import { ExitIntentPopup } from "@/components/exit-intent-popup"
 
 export default function AboutPage() {
   return (
@@ -115,6 +116,9 @@ export default function AboutPage() {
       </section>
 
       <SharedFooter />
+      
+      {/* SEO Components */}
+      <ExitIntentPopup />
     </div>
   )
 }

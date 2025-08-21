@@ -2,6 +2,7 @@
 import { Phone, Mail, MapPin, Star } from "lucide-react"
 import { SharedHeader } from "@/components/shared-header"
 import { SharedFooter } from "@/components/shared-footer"
+import { ExitIntentPopup } from "@/components/exit-intent-popup"
 
 export default function ContactPage() {
   return (
@@ -79,12 +80,53 @@ export default function ContactPage() {
                   )}
                 </div>
               </div>
+
+              {/* Google Maps Integration */}
+              <div className="mt-12">
+                <h3 className="text-xl font-semibold mb-6 text-center">Our Service Areas</h3>
+                <div className="bg-muted/30 rounded-lg p-6">
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div>
+                      <h4 className="font-semibold mb-3">Chennai & Surrounding Areas</h4>
+                      <ul className="space-y-2 text-sm text-muted-foreground">
+                        <li>• Anna Nagar, T Nagar, Adyar</li>
+                        <li>• Velachery, Tambaram, OMR</li>
+                        <li>• Porur, Poonamallee, Avadi</li>
+                        <li>• Ambattur, Red Hills, Ennore</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold mb-3">Pan India Service</h4>
+                      <ul className="space-y-2 text-sm text-muted-foreground">
+                        <li>• Tamil Nadu - All Districts</li>
+                        <li>• Karnataka, Kerala, Andhra Pradesh</li>
+                        <li>• Maharashtra, Gujarat, Delhi NCR</li>
+                        <li>• Other States - On Request</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="mt-6 text-center">
+                    <a
+                      href="https://maps.google.com/?q=Chennai,Tamil+Nadu,India"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center bg-primary text-primary-foreground px-6 py-3 rounded-lg hover:bg-primary/90 transition-all duration-300 hover:scale-105"
+                    >
+                      <MapPin className="mr-2 h-4 w-4" />
+                      View on Google Maps
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       <SharedFooter />
+      
+      {/* SEO Components */}
+      <ExitIntentPopup />
     </div>
   )
 }

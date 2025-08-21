@@ -3,6 +3,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Phone, Zap, Shield, Users, Clock, Settings } from "lucide-react"
 import { SharedHeader } from "@/components/shared-header"
 import { SharedFooter } from "@/components/shared-footer"
+import { ExitIntentPopup } from "@/components/exit-intent-popup"
+import { InstallationGuide } from "@/components/installation-guide"
 
 export default function ServicesPage() {
   return (
@@ -87,7 +89,13 @@ export default function ServicesPage() {
         </div>
       </section>
 
+      {/* Installation Guide */}
+      <InstallationGuide />
+
       <SharedFooter />
+      
+      {/* SEO Components */}
+      <ExitIntentPopup />
     </div>
   )
 }

@@ -4,6 +4,10 @@ import { Badge } from "@/components/ui/badge"
 import { Phone, Mail, MapPin, Zap, Shield, Clock, Users, Star, CheckCircle } from "lucide-react"
 import { SharedHeader } from "@/components/shared-header"
 import { SharedFooter } from "@/components/shared-footer"
+import { BlogSection } from "@/components/blog-section"
+import { QASection } from "@/components/qa-section"
+import { CaseStudies } from "@/components/case-studies"
+import { ExitIntentPopup } from "@/components/exit-intent-popup"
 
 export default function HomePage() {
   return (
@@ -24,7 +28,16 @@ export default function HomePage() {
             support, and unmatched reliability across India.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 animate-in slide-in-from-bottom duration-700 delay-700">
-            <a href="tel:+919962861772">
+            <a href="tel:+919962861772" className="block sm:hidden">
+              <Button
+                size="lg"
+                className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 transition-all duration-300 hover:scale-105 hover:shadow-lg group w-full"
+              >
+                <Phone className="mr-2 h-5 w-5 transition-transform duration-200 group-hover:rotate-12" />
+                Call Now
+              </Button>
+            </a>
+            <a href="tel:+919962861772" className="hidden sm:block">
               <Button
                 size="lg"
                 className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 transition-all duration-300 hover:scale-105 hover:shadow-lg group"
@@ -47,12 +60,17 @@ export default function HomePage() {
           {/* Trust indicators */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto animate-in slide-in-from-bottom duration-700 delay-1000">
             {[
-              { number: "10,000+", label: "Happy Customers" },
-              { number: "5 Years", label: "Warranty" },
-              { number: "24/7", label: "Support" },
-              { number: "Pan India", label: "Service" },
+              { number: "10,000+", label: "Happy Customers", ariaLabel: "Over ten thousand happy customers" },
+              { number: "5 Years", label: "Warranty", ariaLabel: "Five years warranty on all products" },
+              { number: "24/7", label: "Support", ariaLabel: "Twenty four seven customer support" },
+              { number: "Pan India", label: "Service", ariaLabel: "Service available across India" },
             ].map((item, index) => (
-              <div key={index} className="text-center group hover:scale-105 transition-transform duration-300">
+              <div 
+                key={index} 
+                className="text-center group hover:scale-105 transition-transform duration-300"
+                role="region"
+                aria-label={item.ariaLabel}
+              >
                 <div className="text-3xl font-bold text-primary group-hover:text-primary/80 transition-colors duration-200">
                   {item.number}
                 </div>
@@ -126,7 +144,8 @@ export default function HomePage() {
               <div className="h-48 bg-gray-100 rounded-t-lg overflow-hidden">
                 <img
                   src="/placeholder-re65o.png"
-                  alt="Home Inverter"
+                  alt="Home Inverter - வீட்டு இன்வர்டர்"
+                  title="வீட்டு பயன்பாட்டிற்கான இன்வர்டர் - Home Inverter for residential use"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
@@ -165,7 +184,8 @@ export default function HomePage() {
               <div className="h-48 bg-gray-100 rounded-t-lg overflow-hidden">
                 <img
                   src="/placeholder-2vrz9.png"
-                  alt="Business Inverter"
+                  alt="Business Inverter - வணிக இன்வர்டர்"
+                  title="வணிக பயன்பாட்டிற்கான இன்வர்டர் - Business Inverter for commercial use"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
@@ -203,7 +223,8 @@ export default function HomePage() {
               <div className="h-48 bg-gray-100 rounded-t-lg overflow-hidden">
                 <img
                   src="/industrial-power-inverter.png"
-                  alt="Industrial Inverter"
+                  alt="Industrial Inverter - தொழிற்சாலை இன்வர்டர்"
+                  title="தொழிற்சாலை பயன்பாட்டிற்கான இன்வர்டர் - Industrial Inverter for heavy-duty use"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
@@ -278,6 +299,15 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Blog Section */}
+      <BlogSection />
+
+      {/* Case Studies Section */}
+      <CaseStudies />
+
+      {/* Q&A Section */}
+      <QASection />
+
       {/* Contact Section */}
       <section id="contact" className="py-20 px-4">
         <div className="container mx-auto">
@@ -351,6 +381,9 @@ export default function HomePage() {
       </section>
 
       <SharedFooter />
+      
+      {/* SEO Components */}
+      <ExitIntentPopup />
     </div>
   )
 }

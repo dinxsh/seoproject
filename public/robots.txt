@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://your-domain.com/sitemap.xml
+
+# Disallow admin or private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+# Allow important pages
+Allow: /about/
+Allow: /products/
+Allow: /services/
+Allow: /offers/
+Allow: /contact/
+
+# Crawl delay (optional)
+Crawl-delay: 1

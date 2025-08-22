@@ -1,7 +1,9 @@
 "use client"
 
 import { useState } from "react"
-import { Zap, Phone, Menu, X } from "lucide-react"
+import { Phone, Menu, X } from "lucide-react"
+import Image from "next/image"
+import Link from "next/link"
 
 export function SharedHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -11,8 +13,8 @@ export function SharedHeader() {
   const navLinks = [
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
-    { href: "/products", label: "Products" },
     { href: "/services", label: "Services" },
+    { href: "/products", label: "Products" },
     { href: "/locations", label: "Locations" },
     { href: "/blog", label: "Blog" },
     { href: "/contact", label: "Contact" },
@@ -24,12 +26,9 @@ export function SharedHeader() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-4 group">
-            <Zap className="h-8 w-8 text-primary transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12" />
-            <span className="text-xl font-bold transition-colors duration-200 group-hover:text-primary">
-              <a href="/" className="hover:text-primary transition-colors">
-                Apex Inverter
-              </a>
-            </span>
+            <Link href="/">
+              <Image src="/logo.png" alt="Apex Inverter" width={65} height={65}/>
+            </Link>
           </div>
 
           {/* Desktop Navigation */}

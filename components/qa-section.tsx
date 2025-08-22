@@ -109,7 +109,7 @@ export function QASection() {
                 aria-expanded={openItems.includes(index)}
                 aria-controls={`faq-answer-${index}`}
               >
-                <div className="flex items-center justify-between">
+                <div className="flex items-center justify-between w-full">
                   <div className="flex items-start space-x-3">
                     <HelpCircle className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
                     <CardTitle 
@@ -119,17 +119,19 @@ export function QASection() {
                       {faq.question}
                     </CardTitle>
                   </div>
-                  <Badge className="bg-primary/10 text-primary border-primary/20 text-xs">
-                    {faq.category}
-                  </Badge>
+                  <div className="flex items-center space-x-3">
+                    <Badge className="bg-primary/10 text-primary border-primary/20 text-xs">
+                      {faq.category}
+                    </Badge>
+                    <span>
+                      {openItems.includes(index) ? (
+                        <ChevronUp className="h-5 w-5 text-primary hover:text-primary/80 transition-colors duration-200" />
+                      ) : (
+                        <ChevronDown className="h-5 w-5 text-primary hover:text-primary/80 transition-colors duration-200" />
+                      )}
+                    </span>
+                  </div>
                 </div>
-                <button className="ml-8 text-primary hover:text-primary/80 transition-colors duration-200">
-                  {openItems.includes(index) ? (
-                    <ChevronUp className="h-5 w-5" />
-                  ) : (
-                    <ChevronDown className="h-5 w-5" />
-                  )}
-                </button>
               </CardHeader>
               
               {openItems.includes(index) && (

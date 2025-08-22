@@ -23,7 +23,7 @@ export default function InverterMistakesPage() {
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-2">10 Inverter Mistakes Homeowners Make (And How To Avoid Them)</h1>
           <p className="text-muted-foreground mb-4">
-            From wrong sizing to bad wiring—fix these mistakes to boost backup, safety, and battery life.
+            From wrong sizing to bad wiringfix these mistakes to boost backup, safety, and battery life.
           </p>
           <div className="flex items-center text-sm text-muted-foreground gap-4">
             <span className="inline-flex items-center gap-2"><Calendar className="h-4 w-4" /> May 2024</span>

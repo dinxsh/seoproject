@@ -23,7 +23,7 @@ export default function InverterBuyingGuide2025Page() {
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-2">Ultimate Inverter Buying Guide 2025 (Free Checklist)</h1>
           <p className="text-muted-foreground mb-4">
-            Everything you need to make a confident purchase—features, capacity, batteries, and costs.
+            Everything you need to make a confident purchasefeatures, capacity, batteries, and costs.
           </p>
           <div className="flex items-center text-sm text-muted-foreground gap-4">
             <span className="inline-flex items-center gap-2"><Calendar className="h-4 w-4" /> January 2025</span>

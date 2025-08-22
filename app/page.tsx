@@ -10,6 +10,47 @@ import { QASection } from "@/components/qa-section"
 import { CaseStudies } from "@/components/case-studies"
 import { ExitIntentPopup } from "@/components/exit-intent-popup"
 
+const SERVICES = [
+  {
+    icon: Zap,
+    title: "Site Assessment",
+    desc: "Free professional site evaluation and system design",
+  },
+  {
+    icon: Users,
+    title: "Expert Installation",
+    desc: "Certified technicians ensure perfect installation",
+  },
+  {
+    icon: Shield,
+    title: "Maintenance",
+    desc: "Regular maintenance and performance optimization",
+  },
+  {
+    icon: Clock,
+    title: "24/7 Support",
+    desc: "Round-the-clock customer support and emergency service",
+  },
+]
+
+const SERVICE_BENEFITS = [
+  {
+    icon: Shield,
+    title: "Premium Quality",
+    desc: "ISI certified inverters with advanced MPPT technology for maximum efficiency and durability.",
+  },
+  {
+    icon: Users,
+    title: "Expert Installation",
+    desc: "Certified technicians ensure perfect installation and optimal performance of your power system.",
+  },
+  {
+    icon: Clock,
+    title: "24/7 Support",
+    desc: "Round-the-clock customer support and maintenance services across India.",
+  },
+]
+
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-background">
@@ -82,34 +123,51 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* About Us Section */}
-      <section id="about" className="py-20 px-4 bg-muted/30">
+      {/* Services Section - PRIORITIZED */}
+      <section id="services" className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto">
           <div className="text-center mb-16 animate-in slide-in-from-top duration-700">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose Our Inverters?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Power Services</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              With over a decade of experience, we're India's trusted partner for reliable power backup solutions.
+              End-to-end services from consultation to maintenance, ensuring your power backup investment delivers
+              maximum returns.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {SERVICES.map((service, index) => (
+              <Card
+                key={index}
+                className="text-center hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 group animate-in slide-in-from-bottom duration-700"
+                style={{ animationDelay: `${index * 150}ms` }}
+              >
+                <CardHeader>
+                  <service.icon className="h-10 w-10 text-primary mx-auto mb-2 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6" />
+                  <CardTitle className="text-lg group-hover:text-primary transition-colors duration-200">
+                    {service.title}
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground">{service.desc}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Service Benefits Section (formerly About Us, now focused on service strengths) */}
+      <section id="service-benefits" className="py-20 px-4 bg-muted/30">
+        <div className="container mx-auto">
+          <div className="text-center mb-16 animate-in slide-in-from-top duration-700">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose Our Services?</h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              With over a decade of experience, we're India's trusted partner for reliable power backup solutions and service excellence.
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {[
-              {
-                icon: Shield,
-                title: "Premium Quality",
-                desc: "ISI certified inverters with advanced MPPT technology for maximum efficiency and durability.",
-              },
-              {
-                icon: Users,
-                title: "Expert Installation",
-                desc: "Certified technicians ensure perfect installation and optimal performance of your power system.",
-              },
-              {
-                icon: Clock,
-                title: "24/7 Support",
-                desc: "Round-the-clock customer support and maintenance services across India.",
-              },
-            ].map((item, index) => (
+            {SERVICE_BENEFITS.map((item, index) => (
               <Card
                 key={index}
                 className="text-center hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 group animate-in slide-in-from-bottom duration-700"
@@ -130,7 +188,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Products Section */}
+      {/* Products Section - moved below services */}
       <section id="products" className="py-20 px-4">
         <div className="container mx-auto">
           <div className="text-center mb-16 animate-in slide-in-from-top duration-700">

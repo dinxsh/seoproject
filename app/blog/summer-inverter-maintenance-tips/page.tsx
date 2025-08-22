@@ -74,7 +74,7 @@ export default function SummerMaintenancePage() {
 
           <h2>FAQ</h2>
           <p><strong>How often should I clean my inverter in summer?</strong><br/>Every 2–4 weeks depending on dust levels.</p>
-          <p><strong>Is a fan safe near the inverter?</strong><br/>Yes—use a stable fan that doesn’t block vents.</p>
+          <p><strong>Is a fan safe near the inverter?</strong><br/>Yesuse a stable fan that doesn’t block vents.</p>
           <p><strong>Do I need a service visit?</strong><br/>A pre-summer tune‑up prevents heat-related failures.</p>
         </section>
 
@@ -111,7 +111,7 @@ export default function SummerMaintenancePage() {
               "@type": "FAQPage",
               mainEntity: [
                 { "@type": "Question", name: "How often should I clean my inverter in summer?", acceptedAnswer: { "@type": "Answer", text: "Every 2–4 weeks depending on dust levels." } },
-                { "@type": "Question", name: "Is a fan safe near the inverter?", acceptedAnswer: { "@type": "Answer", text: "Yes—use a stable fan that doesn’t block vents." } },
+                { "@type": "Question", name: "Is a fan safe near the inverter?", acceptedAnswer: { "@type": "Answer", text: "Yesuse a stable fan that doesn’t block vents." } },
                 { "@type": "Question", name: "Do I need a service visit?", acceptedAnswer: { "@type": "Answer", text: "A pre-summer tune‑up prevents heat-related failures." } }
               ]
             })

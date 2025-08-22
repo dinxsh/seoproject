@@ -5,7 +5,7 @@ import { Calendar, Clock, Zap, CheckCircle, AlertTriangle } from "lucide-react"
 export const metadata: Metadata = {
   title: "Battery Care Myths That Kill Your Backup (Debunked)",
   description:
-    "We bust common battery myths: full charges daily, random top-ups, deep discharges, and more—what actually extends life.",
+    "We bust common battery myths: full charges daily, random top-ups, deep discharges, and morewhat actually extends life.",
   alternates: { canonical: "/blog/battery-care-myths-debunked" },
 }
 
@@ -50,12 +50,12 @@ export default function BatteryCareMythsPage() {
           <div className="bg-primary/5 p-4 rounded-lg mt-6">
             <div className="flex items-start gap-2">
               <AlertTriangle className="h-5 w-5 text-primary mt-0.5" />
-              <p className="m-0">Tip: Schedule a quarterly battery health check—terminals, electrolyte, and firmware.</p>
+              <p className="m-0">Tip: Schedule a quarterly battery health checkterminals, electrolyte, and firmware.</p>
             </div>
           </div>
 
           <h2>FAQ</h2>
-          <p><strong>How often should I top up water?</strong><br/>Only when the indicator shows low—use distilled water.</p>
+          <p><strong>How often should I top up water?</strong><br/>Only when the indicator shows lowuse distilled water.</p>
           <p><strong>What depth‑of‑discharge is safe?</strong><br/>Follow battery spec; typically avoid deep discharges.</p>
           <p><strong>Do thicker cables help?</strong><br/>Yes, correct gauge lowers heat and voltage drop.</p>
         </section>
@@ -92,7 +92,7 @@ export default function BatteryCareMythsPage() {
               "@context": "https://schema.org",
               "@type": "FAQPage",
               mainEntity: [
-                { "@type": "Question", name: "How often should I top up water?", acceptedAnswer: { "@type": "Answer", text: "Only when the indicator shows low—use distilled water." } },
+                { "@type": "Question", name: "How often should I top up water?", acceptedAnswer: { "@type": "Answer", text: "Only when the indicator shows lowuse distilled water." } },
                 { "@type": "Question", name: "What depth‑of‑discharge is safe?", acceptedAnswer: { "@type": "Answer", text: "Follow battery spec; typically avoid deep discharges." } },
                 { "@type": "Question", name: "Do thicker cables help?", acceptedAnswer: { "@type": "Answer", text: "Yes, correct gauge lowers heat and voltage drop." } }
               ]

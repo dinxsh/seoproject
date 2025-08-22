@@ -49,7 +49,7 @@ const posts = [
   {
     title: "10 Inverter Mistakes Homeowners Make (And How To Avoid Them)",
     excerpt:
-      "From wrong sizing to poor ventilation—avoid these costly inverter mistakes with our checklist.",
+      "From wrong sizing to poor ventilation, avoid these costly inverter mistakes with our checklist.",
     date: "May 2024",
     readTime: "6 min read",
     icon: TrendingUp,
@@ -60,7 +60,7 @@ const posts = [
   {
     title: "Ultimate Inverter Buying Guide 2025 (Free Checklist)",
     excerpt:
-      "Capacity, battery types, MPPT vs PWM, hybrid choices—everything you need to buy confidently.",
+      "Capacity, battery types, MPPT vs PWM, hybrid choices everything you need to buy confidently.",
     date: "January 2025",
     readTime: "9 min read",
     icon: TrendingUp,

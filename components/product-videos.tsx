@@ -35,8 +35,6 @@ export function ProductVideos() {
             </div>
           ))}
         </div>
-
-        <p className="text-xs text-muted-foreground mt-3">Replace VIDEO_ID_* with your actual YouTube IDs.</p>
       </div>
     </section>
   )

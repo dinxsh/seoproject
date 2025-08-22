@@ -23,7 +23,7 @@ export default function ChennaiCaseStudyPage() {
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-2">How a Chennai Family Cut Power Costs by 32%</h1>
           <p className="text-muted-foreground mb-4">
-            A practical breakdown of what they changed—and how you can do it too.
+            A practical breakdown of what they changedand how you can do it too.
           </p>
           <div className="flex items-center text-sm text-muted-foreground gap-4">
             <span className="inline-flex items-center gap-2"><Calendar className="h-4 w-4" /> August 2024</span>

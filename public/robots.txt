@@ -2,18 +2,20 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://apexpowerbatteries.in/sitemap.xml
+Sitemap: https://apexinverterindia.com/sitemap.xml
 
-# Disallow admin or private areas
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Allow all important pages
+Allow: /locations/
+Allow: /blog/
+Allow: /services/
+Allow: /products/
+Allow: /about/
+Allow: /contact/
+
+# Disallow admin or private areas (if any)
 Disallow: /admin/
 Disallow: /private/
 Disallow: /api/
-
-# Allow important pages
-Allow: /about/
-Allow: /products/
-Allow: /services/
-Allow: /contact/
-
-# Crawl delay (optional)
-Crawl-delay: 1

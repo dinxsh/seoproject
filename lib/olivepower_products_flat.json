@@ -1,0 +1,641 @@
+[
+  {
+    "id": "luminous-eco-volt-luminous-eco-volt-neo-1050",
+    "brand": "Luminous",
+    "series": "eco-volt",
+    "name": "Luminous Eco Volt Neo 1050",
+    "image": "https://www.olivepower.in/wp-content/uploads/2015/09/Luminous-Eco-Volt-1050VA.jpg",
+    "url": "https://www.olivepower.in/luminous-eco-volt-neo-1050/",
+    "keywords": "luminous eco-volt luminous eco volt neo 1050"
+  },
+  {
+    "id": "luminous-eco-volt-luminous-eco-volt-neo-1250",
+    "brand": "Luminous",
+    "series": "eco-volt",
+    "name": "Luminous Eco Volt Neo 1250",
+    "image": "https://www.olivepower.in/wp-content/uploads/2022/06/1250.jpg",
+    "url": "https://www.olivepower.in/luminous-eco-volt-neo-1250/",
+    "keywords": "luminous eco-volt luminous eco volt neo 1250"
+  },
+  {
+    "id": "luminous-eco-volt-luminous-eco-volt-neo-1550",
+    "brand": "Luminous",
+    "series": "eco-volt",
+    "name": "Luminous Eco Volt Neo 1550",
+    "image": "https://www.olivepower.in/wp-content/uploads/2020/01/1650volt.webp",
+    "url": "https://www.olivepower.in/luminous-eco-volt-neo-1550/",
+    "keywords": "luminous eco-volt luminous eco volt neo 1550"
+  },
+  {
+    "id": "luminous-eco-volt-luminous-eco-volt-neo-1650",
+    "brand": "Luminous",
+    "series": "eco-volt",
+    "name": "Luminous Eco Volt Neo 1650",
+    "image": "https://www.olivepower.in/wp-content/uploads/2015/09/1650volt1.webp",
+    "url": "https://www.olivepower.in/luminous-eco-volt-neo-1650-sinewave-inverter/",
+    "keywords": "luminous eco-volt luminous eco volt neo 1650"
+  },
+  {
+    "id": "luminous-eco-volt-luminous-eco-volt-neo-2300",
+    "brand": "Luminous",
+    "series": "eco-volt",
+    "name": "Luminous Eco Volt Neo 2300+",
+    "image": "https://www.olivepower.in/wp-content/uploads/2022/09/volt2300.jpg",
+    "url": "https://www.olivepower.in/luminous-eco-volt-neo-2300/",
+    "keywords": "luminous eco-volt luminous eco volt neo 2300+"
+  },
+  {
+    "id": "luminous-eco-volt-luminous-eco-volt-neo-750",
+    "brand": "Luminous",
+    "series": "eco-volt",
+    "name": "Luminous Eco Volt Neo 750",
+    "image": "https://www.olivepower.in/wp-content/uploads/2015/09/750volt.webp",
+    "url": "https://www.olivepower.in/luminous-eco-volt-neo-700-sinewave-inverter/",
+    "keywords": "luminous eco-volt luminous eco volt neo 750"
+  },
+  {
+    "id": "luminous-eco-volt-luminous-eco-volt-neo-850",
+    "brand": "Luminous",
+    "series": "eco-volt",
+    "name": "Luminous Eco Volt Neo 850",
+    "image": "https://www.olivepower.in/wp-content/uploads/2015/09/Luminous-Eco-volt-850va.jpg",
+    "url": "https://www.olivepower.in/luminous-eco-volt-neo-850-sinewave-inverter/",
+    "keywords": "luminous eco-volt luminous eco volt neo 850"
+  },
+  {
+    "id": "luminous-icon-luminous-icon-1100",
+    "brand": "Luminous",
+    "series": "icon",
+    "name": "Luminous Icon 1100",
+    "image": "https://www.olivepower.in/wp-content/uploads/2021/07/icon1100.webp",
+    "url": "https://www.olivepower.in/luminous-icon-1100/",
+    "keywords": "luminous icon luminous icon 1100"
+  },
+  {
+    "id": "luminous-icon-luminous-icon-1600",
+    "brand": "Luminous",
+    "series": "icon",
+    "name": "Luminous Icon 1600",
+    "image": "https://www.olivepower.in/wp-content/uploads/2021/07/icon.jpg",
+    "url": "https://www.olivepower.in/luminous-icon-1600/",
+    "keywords": "luminous icon luminous icon 1600"
+  },
+  {
+    "id": "luminous-li-on-luminous-li-on-1250",
+    "brand": "Luminous",
+    "series": "li-on",
+    "name": "Luminous Li-On 1250",
+    "image": "https://www.olivepower.in/wp-content/uploads/2022/06/lion1250.jpg",
+    "url": "https://www.olivepower.in/luminous-li-on-1250-lithium-inverter-battery-combo/",
+    "keywords": "luminous li-on luminous li-on 1250"
+  },
+  {
+    "id": "luminous-luminous-higher-kva-luminous-icruze-11000",
+    "brand": "Luminous",
+    "series": "luminous-higher-kva",
+    "name": "Luminous ICruze 11000",
+    "image": "https://www.olivepower.in/wp-content/uploads/2021/02/icruze-4000.jpg",
+    "url": "https://www.olivepower.in/luminous-icruze-11000/",
+    "keywords": "luminous luminous-higher-kva luminous icruze 11000"
+  },
+  {
+    "id": "luminous-luminous-higher-kva-luminous-icruze-5000",
+    "brand": "Luminous",
+    "series": "luminous-higher-kva",
+    "name": "Luminous ICruze 5000",
+    "image": "https://www.olivepower.in/wp-content/uploads/2021/02/icruze-4000.jpg",
+    "url": "https://www.olivepower.in/luminous-icruze-5000/",
+    "keywords": "luminous luminous-higher-kva luminous icruze 5000"
+  },
+  {
+    "id": "luminous-luminous-higher-kva-luminous-icruze-6000",
+    "brand": "Luminous",
+    "series": "luminous-higher-kva",
+    "name": "Luminous ICruze 6000+",
+    "image": "https://www.olivepower.in/wp-content/uploads/2021/02/icruze-4000.jpg",
+    "url": "https://www.olivepower.in/luminous-icruze-6000/",
+    "keywords": "luminous luminous-higher-kva luminous icruze 6000+"
+  },
+  {
+    "id": "luminous-luminous-higher-kva-luminous-icruze-7000",
+    "brand": "Luminous",
+    "series": "luminous-higher-kva",
+    "name": "Luminous ICruze 7000+",
+    "image": "https://www.olivepower.in/wp-content/uploads/2021/02/icruze-4000.jpg",
+    "url": "https://www.olivepower.in/luminous-icruze-7000/",
+    "keywords": "luminous luminous-higher-kva luminous icruze 7000+"
+  },
+  {
+    "id": "luminous-luminous-higher-kva-luminous-icruze-9000",
+    "brand": "Luminous",
+    "series": "luminous-higher-kva",
+    "name": "Luminous ICruze 9000",
+    "image": "https://www.olivepower.in/wp-content/uploads/2021/02/icruze-4000.jpg",
+    "url": "https://www.olivepower.in/luminous-icruze-9000-96-volt-sine-wave-inverter/",
+    "keywords": "luminous luminous-higher-kva luminous icruze 9000"
+  },
+  {
+    "id": "luminous-luminous-higher-kva-luminous-optimus-2300",
+    "brand": "Luminous",
+    "series": "luminous-higher-kva",
+    "name": "Luminous Optimus 2300+",
+    "image": "https://www.olivepower.in/wp-content/uploads/2022/05/optimus2300.jpg",
+    "url": "https://www.olivepower.in/luminous-optimus-2300/",
+    "keywords": "luminous luminous-higher-kva luminous optimus 2300+"
+  },
+  {
+    "id": "luminous-luminous-higher-kva-luminous-optimus-2800",
+    "brand": "Luminous",
+    "series": "luminous-higher-kva",
+    "name": "Luminous Optimus 2800+",
+    "image": "https://www.olivepower.in/wp-content/uploads/2022/05/optimus2800.jpg",
+    "url": "https://www.olivepower.in/luminous-optimus-2800/",
+    "keywords": "luminous luminous-higher-kva luminous optimus 2800+"
+  },
+  {
+    "id": "luminous-luminous-higher-kva-luminous-optimus-3800",
+    "brand": "Luminous",
+    "series": "luminous-higher-kva",
+    "name": "Luminous Optimus 3800+",
+    "image": "https://www.olivepower.in/wp-content/uploads/2023/06/3800web.webp",
+    "url": "https://www.olivepower.in/luminous-optimus-3800/",
+    "keywords": "luminous luminous-higher-kva luminous optimus 3800+"
+  },
+  {
+    "id": "luminous-luminous-higher-kva-luminous-optimus-4500",
+    "brand": "Luminous",
+    "series": "luminous-higher-kva",
+    "name": "Luminous Optimus 4500+",
+    "image": "https://www.olivepower.in/wp-content/uploads/2024/03/4500.webp",
+    "url": "https://www.olivepower.in/luminous-optimus-4500/",
+    "keywords": "luminous luminous-higher-kva luminous optimus 4500+"
+  },
+  {
+    "id": "luminous-luminous-higher-kva-luminous-optimus-6500",
+    "brand": "Luminous",
+    "series": "luminous-higher-kva",
+    "name": "Luminous Optimus 6500+",
+    "image": "https://www.olivepower.in/wp-content/uploads/2024/03/6500.webp",
+    "url": "https://www.olivepower.in/luminous-optimus-6500/",
+    "keywords": "luminous luminous-higher-kva luminous optimus 6500+"
+  },
+  {
+    "id": "luminous-nxg-luminous-nxg-1150e-solar-inverter",
+    "brand": "Luminous",
+    "series": "nxg",
+    "name": "Luminous NXG 1150e Solar Inverter",
+    "image": "https://www.olivepower.in/wp-content/uploads/2018/08/1150.jpg",
+    "url": "https://www.olivepower.in/luminous-nxg-1150-solar-home-ups/",
+    "keywords": "luminous nxg luminous nxg 1150e solar inverter"
+  },
+  {
+    "id": "luminous-nxg-luminous-nxg-1450e-solar-inverter",
+    "brand": "Luminous",
+    "series": "nxg",
+    "name": "Luminous NXG 1450e Solar Inverter",
+    "image": "https://www.olivepower.in/wp-content/uploads/2019/08/1450.webp",
+    "url": "https://www.olivepower.in/luminous-nxg-1450-solar-home-ups/",
+    "keywords": "luminous nxg luminous nxg 1450e solar inverter"
+  },
+  {
+    "id": "luminous-nxg-luminous-nxg-1850-solar-inverter",
+    "brand": "Luminous",
+    "series": "nxg",
+    "name": "Luminous NXG 1850 Solar Inverter",
+    "image": "https://www.olivepower.in/wp-content/uploads/2020/09/1850.webp",
+    "url": "https://www.olivepower.in/luminous-nxg-1850-solar-home-ups/",
+    "keywords": "luminous nxg luminous nxg 1850 solar inverter"
+  },
+  {
+    "id": "luminous-nxg-luminous-nxg-2350-solar-inverter",
+    "brand": "Luminous",
+    "series": "nxg",
+    "name": "Luminous NXG 2350 Solar Inverter",
+    "image": "https://www.olivepower.in/wp-content/uploads/2023/12/2350.webp",
+    "url": "https://www.olivepower.in/luminous-nxg-2350-solar-inverter/",
+    "keywords": "luminous nxg luminous nxg 2350 solar inverter"
+  },
+  {
+    "id": "luminous-nxg-luminous-nxg-850e-solar-inverter",
+    "brand": "Luminous",
+    "series": "nxg",
+    "name": "Luminous NXG 850e Solar Inverter",
+    "image": "https://www.olivepower.in/wp-content/uploads/2023/12/850-1.webp",
+    "url": "https://www.olivepower.in/luminous-nxg-850-solar-inverter/",
+    "keywords": "luminous nxg luminous nxg 850e solar inverter"
+  },
+  {
+    "id": "luminous-nxg-pro-luminous-nxg-pro-1kva-12v",
+    "brand": "Luminous",
+    "series": "nxg-pro",
+    "name": "Luminous NXG Pro 1KVA 12V",
+    "image": "https://www.olivepower.in/wp-content/uploads/2024/03/1kvapro.webp",
+    "url": "https://www.olivepower.in/luminous-nxg-pro-1kva-12v/",
+    "keywords": "luminous nxg-pro luminous nxg pro 1kva 12v"
+  },
+  {
+    "id": "luminous-nxg-pro-luminous-nxg-pro-1kva-24v",
+    "brand": "Luminous",
+    "series": "nxg-pro",
+    "name": "Luminous NXG Pro 1KVA 24V",
+    "image": "https://www.olivepower.in/wp-content/uploads/2024/03/1kvapro24.webp",
+    "url": "https://www.olivepower.in/luminous-nxg-pro-1kva-24v/",
+    "keywords": "luminous nxg-pro luminous nxg pro 1kva 24v"
+  },
+  {
+    "id": "luminous-optimus-luminous-optimus-1250",
+    "brand": "Luminous",
+    "series": "optimus",
+    "name": "Luminous Optimus 1250",
+    "image": "https://www.olivepower.in/wp-content/uploads/2021/04/optimus-1250.jpg",
+    "url": "https://www.olivepower.in/luminous-optimus-1250/",
+    "keywords": "luminous optimus luminous optimus 1250"
+  },
+  {
+    "id": "luminous-optimus-luminous-optimus-2300",
+    "brand": "Luminous",
+    "series": "optimus",
+    "name": "Luminous Optimus 2300+",
+    "image": "https://www.olivepower.in/wp-content/uploads/2022/05/optimus2300.jpg",
+    "url": "https://www.olivepower.in/luminous-optimus-2300/",
+    "keywords": "luminous optimus luminous optimus 2300+"
+  },
+  {
+    "id": "luminous-optimus-luminous-optimus-2800",
+    "brand": "Luminous",
+    "series": "optimus",
+    "name": "Luminous Optimus 2800+",
+    "image": "https://www.olivepower.in/wp-content/uploads/2022/05/optimus2800.jpg",
+    "url": "https://www.olivepower.in/luminous-optimus-2800/",
+    "keywords": "luminous optimus luminous optimus 2800+"
+  },
+  {
+    "id": "luminous-optimus-luminous-optimus-3800",
+    "brand": "Luminous",
+    "series": "optimus",
+    "name": "Luminous Optimus 3800+",
+    "image": "https://www.olivepower.in/wp-content/uploads/2023/06/3800web.webp",
+    "url": "https://www.olivepower.in/luminous-optimus-3800/",
+    "keywords": "luminous optimus luminous optimus 3800+"
+  },
+  {
+    "id": "luminous-optimus-luminous-optimus-4500",
+    "brand": "Luminous",
+    "series": "optimus",
+    "name": "Luminous Optimus 4500+",
+    "image": "https://www.olivepower.in/wp-content/uploads/2024/03/4500.webp",
+    "url": "https://www.olivepower.in/luminous-optimus-4500/",
+    "keywords": "luminous optimus luminous optimus 4500+"
+  },
+  {
+    "id": "luminous-optimus-luminous-optimus-6500",
+    "brand": "Luminous",
+    "series": "optimus",
+    "name": "Luminous Optimus 6500+",
+    "image": "https://www.olivepower.in/wp-content/uploads/2024/03/6500.webp",
+    "url": "https://www.olivepower.in/luminous-optimus-6500/",
+    "keywords": "luminous optimus luminous optimus 6500+"
+  },
+  {
+    "id": "luminous-zelio-luminous-zelio-1100",
+    "brand": "Luminous",
+    "series": "zelio",
+    "name": "Luminous Zelio 1100+",
+    "image": "https://www.olivepower.in/wp-content/uploads/2015/09/Luminous-Zelio-1100VA.jpg",
+    "url": "https://www.olivepower.in/luminous-zelio-1100-home-ups/",
+    "keywords": "luminous zelio luminous zelio 1100+"
+  },
+  {
+    "id": "luminous-zelio-luminous-zelio-1100i",
+    "brand": "Luminous",
+    "series": "zelio",
+    "name": "Luminous Zelio 1100i",
+    "image": "https://www.olivepower.in/wp-content/uploads/2015/09/Luminous-Zelio-1100VA.jpg",
+    "url": "https://www.olivepower.in/luminous-zelio-1100i-bluetooth/",
+    "keywords": "luminous zelio luminous zelio 1100i"
+  },
+  {
+    "id": "luminous-zelio-luminous-zelio-1700",
+    "brand": "Luminous",
+    "series": "zelio",
+    "name": "Luminous Zelio 1700+",
+    "image": "https://www.olivepower.in/wp-content/uploads/2016/03/Luminous-Zelio-1700VA.jpg",
+    "url": "https://www.olivepower.in/luminous-zelio-1700-home-ups/",
+    "keywords": "luminous zelio luminous zelio 1700+"
+  },
+  {
+    "id": "luminous-zelio-luminous-zelio-1700i",
+    "brand": "Luminous",
+    "series": "zelio",
+    "name": "Luminous Zelio 1700i",
+    "image": "https://www.olivepower.in/wp-content/uploads/2015/09/Luminous-Zelio-1100VA.jpg",
+    "url": "https://www.olivepower.in/luminous-zelio-1700i-home-ups/",
+    "keywords": "luminous zelio luminous zelio 1700i"
+  },
+  {
+    "id": "luminous-zelio-luminous-zelio-smart-1100",
+    "brand": "Luminous",
+    "series": "zelio",
+    "name": "Luminous Zelio Smart 1100",
+    "image": "https://www.olivepower.in/wp-content/uploads/2023/06/zelio.webp",
+    "url": "https://www.olivepower.in/luminous-zelio-smart-1100/",
+    "keywords": "luminous zelio luminous zelio smart 1100"
+  },
+  {
+    "id": "luminous-zelio-luminous-zelio-wifi-1100",
+    "brand": "Luminous",
+    "series": "zelio",
+    "name": "Luminous Zelio Wifi 1100",
+    "image": "https://www.olivepower.in/wp-content/uploads/2019/03/zelio-wifi-1100.jpg",
+    "url": "https://www.olivepower.in/luminous-zelio-wifi-1100-home-ups/",
+    "keywords": "luminous zelio luminous zelio wifi 1100"
+  },
+  {
+    "id": "luminous-zelio-luminous-zelio-wifi-1700",
+    "brand": "Luminous",
+    "series": "zelio",
+    "name": "Luminous Zelio Wifi 1700",
+    "image": "https://www.olivepower.in/wp-content/uploads/2019/03/zelio-wifi-1100.jpg",
+    "url": "https://www.olivepower.in/luminous-zelio-wifi-1700-home-ups/",
+    "keywords": "luminous zelio luminous zelio wifi 1700"
+  },
+  {
+    "id": "microtek-24x7-microtek-smart-hybrid-ups-1075-12v",
+    "brand": "Microtek",
+    "series": "24x7",
+    "name": "Microtek Smart Hybrid UPS 1075 12V",
+    "image": "https://www.olivepower.in/wp-content/uploads/2021/09/shb.jpg",
+    "url": "https://www.olivepower.in/microtek-smart-hybrid-ups-1075-12v/",
+    "keywords": "microtek 24x7 microtek smart hybrid ups 1075 12v"
+  },
+  {
+    "id": "microtek-24x7-microtek-smart-hybrid-ups-1275-12v",
+    "brand": "Microtek",
+    "series": "24x7",
+    "name": "Microtek Smart Hybrid UPS 1275 12V",
+    "image": "https://www.olivepower.in/wp-content/uploads/2021/09/shb.jpg",
+    "url": "https://www.olivepower.in/microtek-smart-hybrid-ups-1275-12v/",
+    "keywords": "microtek 24x7 microtek smart hybrid ups 1275 12v"
+  },
+  {
+    "id": "microtek-24x7-microtek-smart-hybrid-ups-1875-24v",
+    "brand": "Microtek",
+    "series": "24x7",
+    "name": "Microtek Smart Hybrid UPS 1875 24V",
+    "image": "https://www.olivepower.in/wp-content/uploads/2021/09/shb.jpg",
+    "url": "https://www.olivepower.in/microtek-smart-hybrid-ups-1875-24v/",
+    "keywords": "microtek 24x7 microtek smart hybrid ups 1875 24v"
+  },
+  {
+    "id": "microtek-24x7-microtek-smart-hybrid-ups-875-12v",
+    "brand": "Microtek",
+    "series": "24x7",
+    "name": "Microtek Smart Hybrid UPS 875 12V",
+    "image": "https://www.olivepower.in/wp-content/uploads/2021/09/875.jpg",
+    "url": "https://www.olivepower.in/microtek-smart-hybrid-ups-875-12v/",
+    "keywords": "microtek 24x7 microtek smart hybrid ups 875 12v"
+  },
+  {
+    "id": "microtek-energy-saver-microtek-energy-saver-ups-1025-12v-sw",
+    "brand": "Microtek",
+    "series": "energy-saver",
+    "name": "Microtek Energy Saver UPS 1025 12V SW",
+    "image": "https://www.olivepower.in/wp-content/uploads/2015/10/e2energy.jpg",
+    "url": "https://www.olivepower.in/microtek-energy-saver-ups-1025-12v-sw/",
+    "keywords": "microtek energy-saver microtek energy saver ups 1025 12v sw"
+  },
+  {
+    "id": "microtek-energy-saver-microtek-energy-saver-ups-1225-12v-sw",
+    "brand": "Microtek",
+    "series": "energy-saver",
+    "name": "Microtek Energy Saver UPS 1225 12V SW",
+    "image": "https://www.olivepower.in/wp-content/uploads/2015/10/e2energy.jpg",
+    "url": "https://www.olivepower.in/microtek-ups-sw-e2-1225-sinewave-inverter/",
+    "keywords": "microtek energy-saver microtek energy saver ups 1225 12v sw"
+  },
+  {
+    "id": "microtek-energy-saver-microtek-energy-saver-ups-1825-24v-sw",
+    "brand": "Microtek",
+    "series": "energy-saver",
+    "name": "Microtek Energy Saver UPS 1825 24V SW",
+    "image": "https://www.olivepower.in/wp-content/uploads/2015/10/e2energy.jpg",
+    "url": "https://www.olivepower.in/microtek-energy-saver-ups-1825-24v-sw/",
+    "keywords": "microtek energy-saver microtek energy saver ups 1825 24v sw"
+  },
+  {
+    "id": "microtek-energy-saver-microtek-energy-saver-ups-825-12v-sw",
+    "brand": "Microtek",
+    "series": "energy-saver",
+    "name": "Microtek Energy Saver UPS 825 12V SW",
+    "image": "https://www.olivepower.in/wp-content/uploads/2015/10/e2energy.jpg",
+    "url": "https://www.olivepower.in/microtek-energy-saver-ups-825-12v-sw/",
+    "keywords": "microtek energy-saver microtek energy saver ups 825 12v sw"
+  },
+  {
+    "id": "microtek-heavy-duty-microtek-heavy-duty-ups-1550-12v-sinewave",
+    "brand": "Microtek",
+    "series": "heavy-duty",
+    "name": "Microtek Heavy Duty UPS 1550 / 12V Sinewave",
+    "image": "https://www.olivepower.in/wp-content/uploads/2022/10/1550hvdy.webp",
+    "url": "https://www.olivepower.in/microtek-heavy-duty-ups-1550-12v-sinewave/",
+    "keywords": "microtek heavy-duty microtek heavy duty ups 1550 / 12v sinewave"
+  },
+  {
+    "id": "microtek-heavy-duty-microtek-heavy-duty-ups-2350-24v-sinewave",
+    "brand": "Microtek",
+    "series": "heavy-duty",
+    "name": "Microtek Heavy Duty UPS 2350 / 24V Sinewave",
+    "image": "https://www.olivepower.in/wp-content/uploads/2016/09/HD2350.jpg",
+    "url": "https://www.olivepower.in/microtek-heavy-duty-ups-2350-24v-sinewave/",
+    "keywords": "microtek heavy-duty microtek heavy duty ups 2350 / 24v sinewave"
+  },
+  {
+    "id": "microtek-luxe-microtek-ups-luxe-sw-1000",
+    "brand": "Microtek",
+    "series": "luxe",
+    "name": "Microtek UPS Luxe SW 1000",
+    "image": "https://www.olivepower.in/wp-content/uploads/2022/10/luxe.jpg",
+    "url": "https://www.olivepower.in/microtek-ups-luxe-sw-1000/",
+    "keywords": "microtek luxe microtek ups luxe sw 1000"
+  },
+  {
+    "id": "microtek-luxe-microtek-ups-luxe-sw-1200",
+    "brand": "Microtek",
+    "series": "luxe",
+    "name": "Microtek UPS Luxe SW 1200",
+    "image": "https://www.olivepower.in/wp-content/uploads/2022/10/luxe.jpg",
+    "url": "https://www.olivepower.in/microtek-ups-luxe-sw-1200/",
+    "keywords": "microtek luxe microtek ups luxe sw 1200"
+  },
+  {
+    "id": "microtek-luxe-microtek-ups-luxe-sw-1400",
+    "brand": "Microtek",
+    "series": "luxe",
+    "name": "Microtek UPS Luxe SW 1400",
+    "image": "https://www.olivepower.in/wp-content/uploads/2022/10/luxe.jpg",
+    "url": "https://www.olivepower.in/microtek-ups-luxe-sw-1400/",
+    "keywords": "microtek luxe microtek ups luxe sw 1400"
+  },
+  {
+    "id": "microtek-luxe-microtek-ups-luxe-sw-1900",
+    "brand": "Microtek",
+    "series": "luxe",
+    "name": "Microtek UPS Luxe SW 1900",
+    "image": "https://www.olivepower.in/wp-content/uploads/2022/10/luxe.jpg",
+    "url": "https://www.olivepower.in/microtek-ups-luxe-sw-1900/",
+    "keywords": "microtek luxe microtek ups luxe sw 1900"
+  },
+  {
+    "id": "microtek-merlyn-microtek-imerlyn-ups-1050-12v-sw",
+    "brand": "Microtek",
+    "series": "merlyn",
+    "name": "Microtek iMERLYN UPS 1050 12V SW",
+    "image": "https://www.olivepower.in/wp-content/uploads/2021/09/imerlyn.jpg",
+    "url": "https://www.olivepower.in/microtek-imerlyn-ups-1050-12v-sw/",
+    "keywords": "microtek merlyn microtek imerlyn ups 1050 12v sw"
+  },
+  {
+    "id": "microtek-merlyn-microtek-imerlyn-ups-1250-12v-sw",
+    "brand": "Microtek",
+    "series": "merlyn",
+    "name": "Microtek iMERLYN UPS 1250 12V SW",
+    "image": "https://www.olivepower.in/wp-content/uploads/2021/09/imerlyn.jpg",
+    "url": "https://www.olivepower.in/microtek-imerlyn-ups-1250-12v-sw/",
+    "keywords": "microtek merlyn microtek imerlyn ups 1250 12v sw"
+  },
+  {
+    "id": "microtek-merlyn-microtek-imerlyn-ups-1850-24v-sw",
+    "brand": "Microtek",
+    "series": "merlyn",
+    "name": "Microtek iMERLYN UPS 1850 24V SW",
+    "image": "https://www.olivepower.in/wp-content/uploads/2021/09/imerlyn.jpg",
+    "url": "https://www.olivepower.in/microtek-imerlyn-ups-1850-24v-sw/",
+    "keywords": "microtek merlyn microtek imerlyn ups 1850 24v sw"
+  },
+  {
+    "id": "microtek-merlyn-microtek-imerlyn-ups-850-12v-sw",
+    "brand": "Microtek",
+    "series": "merlyn",
+    "name": "Microtek iMERLYN UPS 850 12V SW",
+    "image": "https://www.olivepower.in/wp-content/uploads/2021/09/imerlyn.jpg",
+    "url": "https://www.olivepower.in/microtek-imerlyn-ups-850-12v-sw/",
+    "keywords": "microtek merlyn microtek imerlyn ups 850 12v sw"
+  },
+  {
+    "id": "microtek-super-power-microtek-super-power-ups-1100-12v-sw",
+    "brand": "Microtek",
+    "series": "super-power",
+    "name": "Microtek Super Power UPS 1100 12V SW",
+    "image": "https://www.olivepower.in/wp-content/uploads/2016/07/spsw.jpg",
+    "url": "https://www.olivepower.in/microtek-super-power-ups-1100-12v-sw/",
+    "keywords": "microtek super-power microtek super power ups 1100 12v sw"
+  },
+  {
+    "id": "microtek-super-power-microtek-super-power-ups-1700-24v-sw",
+    "brand": "Microtek",
+    "series": "super-power",
+    "name": "Microtek Super Power UPS 1700 24V SW",
+    "image": "https://www.olivepower.in/wp-content/uploads/2016/07/spsw.jpg",
+    "url": "https://www.olivepower.in/microtek-ups-sw-eb-1700/",
+    "keywords": "microtek super-power microtek super power ups 1700 24v sw"
+  },
+  {
+    "id": "microtek-super-power-microtek-super-power-ups-800-12v-sw",
+    "brand": "Microtek",
+    "series": "super-power",
+    "name": "Microtek Super Power UPS 800 12V SW",
+    "image": "https://www.olivepower.in/wp-content/uploads/2016/07/spsw.jpg",
+    "url": "https://www.olivepower.in/microtek-super-power-ups-800-12v-sw/",
+    "keywords": "microtek super-power microtek super power ups 800 12v sw"
+  },
+  {
+    "id": "microtek-super-power-microtek-super-power-ups-900-12v-sw",
+    "brand": "Microtek",
+    "series": "super-power",
+    "name": "Microtek Super Power UPS 900 12V SW",
+    "image": "https://www.olivepower.in/wp-content/uploads/2016/07/spsw.jpg",
+    "url": "https://www.olivepower.in/microtek-super-power-ups-900-12v-sw/",
+    "keywords": "microtek super-power microtek super power ups 900 12v sw"
+  },
+  {
+    "id": "microtek-ups-jm-sw-microtek-ups-jm-sw-11000i-180v-inverter",
+    "brand": "Microtek",
+    "series": "ups-jm-sw",
+    "name": "Microtek UPS JM SW 11000i/180V Inverter",
+    "image": "https://www.olivepower.in/wp-content/uploads/2018/03/microtek11000.jpg",
+    "url": "https://www.olivepower.in/microtek-ups-jm-sw-11000i-180v-inverter/",
+    "keywords": "microtek ups-jm-sw microtek ups jm sw 11000i/180v inverter"
+  },
+  {
+    "id": "microtek-ups-jm-sw-microtek-ups-jm-sw-2500-24v-inverter",
+    "brand": "Microtek",
+    "series": "ups-jm-sw",
+    "name": "Microtek UPS JM SW 2500+ / 24V Inverter",
+    "image": "https://www.olivepower.in/wp-content/uploads/2021/06/upsjmsw.jpg",
+    "url": "https://www.olivepower.in/microtek-ups-jm-sw-2500-24v-inverter/",
+    "keywords": "microtek ups-jm-sw microtek ups jm sw 2500+ / 24v inverter"
+  },
+  {
+    "id": "microtek-ups-jm-sw-microtek-ups-jm-sw-3500-24v-inverter",
+    "brand": "Microtek",
+    "series": "ups-jm-sw",
+    "name": "Microtek UPS JM SW 3500+ / 24V Inverter",
+    "image": "https://www.olivepower.in/wp-content/uploads/2021/06/upsjmsw.jpg",
+    "url": "https://www.olivepower.in/microtek-ups-jm-sw-3500-24v-inverter/",
+    "keywords": "microtek ups-jm-sw microtek ups jm sw 3500+ / 24v inverter"
+  },
+  {
+    "id": "microtek-ups-jm-sw-microtek-ups-jm-sw-3750-36v-inverter",
+    "brand": "Microtek",
+    "series": "ups-jm-sw",
+    "name": "Microtek UPS JM SW 3750+ / 36V Inverter",
+    "image": "https://www.olivepower.in/wp-content/uploads/2021/06/upsjmsw.jpg",
+    "url": "https://www.olivepower.in/microtek-ups-jm-sw-3750-36v-inverter/",
+    "keywords": "microtek ups-jm-sw microtek ups jm sw 3750+ / 36v inverter"
+  },
+  {
+    "id": "microtek-ups-jm-sw-microtek-ups-jm-sw-4000-48v-inverter",
+    "brand": "Microtek",
+    "series": "ups-jm-sw",
+    "name": "Microtek UPS JM SW 4000+ / 48V Inverter",
+    "image": "https://www.olivepower.in/wp-content/uploads/2021/06/upsjmsw.jpg",
+    "url": "https://www.olivepower.in/microtek-ups-jm-sw-4000-48v-inverter/",
+    "keywords": "microtek ups-jm-sw microtek ups jm sw 4000+ / 48v inverter"
+  },
+  {
+    "id": "microtek-ups-jm-sw-microtek-ups-jm-sw-5500-48v-inverter",
+    "brand": "Microtek",
+    "series": "ups-jm-sw",
+    "name": "Microtek UPS JM SW 5500+ / 48V Inverter",
+    "image": "https://www.olivepower.in/wp-content/uploads/2017/08/upsjmsw-1.jpg",
+    "url": "https://www.olivepower.in/microtek-ups-jm-sw-5500-48v-inverter/",
+    "keywords": "microtek ups-jm-sw microtek ups jm sw 5500+ / 48v inverter"
+  },
+  {
+    "id": "microtek-ups-jm-sw-microtek-ups-jm-sw-6500i-96v-inverter",
+    "brand": "Microtek",
+    "series": "ups-jm-sw",
+    "name": "Microtek UPS JM SW 6500i/96V Inverter",
+    "image": "https://www.olivepower.in/wp-content/uploads/2021/09/microtek6500.jpg",
+    "url": "https://www.olivepower.in/microtek-ups-jm-sw-6500i-96v-inverter/",
+    "keywords": "microtek ups-jm-sw microtek ups jm sw 6500i/96v inverter"
+  },
+  {
+    "id": "microtek-ups-jm-sw-microtek-ups-jm-sw-8000-72v-inverter",
+    "brand": "Microtek",
+    "series": "ups-jm-sw",
+    "name": "Microtek UPS JM SW 8000+ / 72V Inverter",
+    "image": "https://www.olivepower.in/wp-content/uploads/2017/08/upsjmsw-1.jpg",
+    "url": "https://www.olivepower.in/microtek-ups-jm-sw-6000-72v-inverter/",
+    "keywords": "microtek ups-jm-sw microtek ups jm sw 8000+ / 72v inverter"
+  },
+  {
+    "id": "microtek-ups-jm-sw-microtek-ups-jm-sw-9000i-120v-inverter",
+    "brand": "Microtek",
+    "series": "ups-jm-sw",
+    "name": "Microtek UPS JM SW 9000i/120V Inverter",
+    "image": "https://www.olivepower.in/wp-content/uploads/2018/03/microtek9000.jpg",
+    "url": "https://www.olivepower.in/microtek-ups-jm-sw-9000i-120v-inverter/",
+    "keywords": "microtek ups-jm-sw microtek ups jm sw 9000i/120v inverter"
+  }
+]

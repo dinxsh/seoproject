@@ -70,6 +70,18 @@ const localities = [
   { name: "Mathur", slug: "mathur" },
   { name: "Angaputhur", slug: "angaputhur" },
   { name: "Ramapuram", slug: "ramapuram" },
+  { name: "Kolathur", slug: "kolathur" },
+  { name: "Periyarnagar", slug: "periyarnagar" },
+  { name: "GKM Colony", slug: "gkm-colony" },
+  { name: "Vysarpadi", slug: "vysarpadi" },
+  { name: "Thiruvettriyur", slug: "thiruvettriyur" },
+  { name: "Veppampattu", slug: "veppampattu" },
+  { name: "Nemilichery", slug: "nemilichery" },
+  { name: "Palavanthangal", slug: "palavanthangal" },
+  { name: "Besennagar", slug: "besennagar" },
+  { name: "Adayar", slug: "adayar" },
+  { name: "Adhampakkam", slug: "adhampakkam" },
+  { name: "Nandhanam", slug: "nandhanam" },
 ]
 
 export const metadata: Metadata = {

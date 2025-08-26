@@ -406,6 +406,78 @@ const LOCATIONS: Record<string, { name: string; intro: string; description: stri
     description: "Expert inverter solutions in Ramapuram, Chennai. Reliable backup power solutions for homes and commercial establishments.",
     keywords: "inverter installation Ramapuram, inverter service Ramapuram, professional inverter Ramapuram, commercial inverter Ramapuram"
   },
+  kolathur: { 
+    name: "Kolathur", 
+    intro: "Professional inverter services in Kolathur.",
+    description: "Expert inverter installation and maintenance in Kolathur, Chennai. Reliable backup power solutions for homes and businesses.",
+    keywords: "inverter installation Kolathur, inverter service Kolathur, backup power Kolathur, inverter repair Kolathur"
+  },
+  periyarnagar: { 
+    name: "Periyarnagar", 
+    intro: "Quality inverter solutions in Periyarnagar.",
+    description: "Premium inverter services in Periyarnagar, Chennai. Professional installation and maintenance for reliable power backup.",
+    keywords: "inverter installation Periyarnagar, inverter service Periyarnagar, quality inverter Periyarnagar, backup power Periyarnagar"
+  },
+  "gkm-colony": { 
+    name: "GKM Colony", 
+    intro: "Trusted inverter installation in GKM Colony.",
+    description: "Reliable inverter services in GKM Colony, Chennai. Expert installation and maintenance for uninterrupted power supply.",
+    keywords: "inverter installation GKM Colony, inverter service GKM Colony, trusted inverter GKM Colony, power backup GKM Colony"
+  },
+  vysarpadi: { 
+    name: "Vysarpadi", 
+    intro: "Expert inverter services in Vysarpadi.",
+    description: "Professional inverter solutions in Vysarpadi, Chennai. Complete power backup solutions with certified installation.",
+    keywords: "inverter installation Vysarpadi, inverter service Vysarpadi, expert inverter Vysarpadi, power solutions Vysarpadi"
+  },
+  thiruvettriyur: { 
+    name: "Thiruvettriyur", 
+    intro: "Complete inverter solutions in Thiruvettriyur.",
+    description: "Full-service inverter solutions in Thiruvettriyur, Chennai. Installation, repair, and maintenance for all your power backup needs.",
+    keywords: "inverter installation Thiruvettriyur, inverter service Thiruvettriyur, complete inverter solutions Thiruvettriyur"
+  },
+  veppampattu: { 
+    name: "Veppampattu", 
+    intro: "Professional inverter installation in Veppampattu.",
+    description: "Expert inverter services in Veppampattu, Chennai. Reliable backup power solutions with certified technicians.",
+    keywords: "inverter installation Veppampattu, inverter service Veppampattu, professional inverter Veppampattu, backup power Veppampattu"
+  },
+  nemilichery: { 
+    name: "Nemilichery", 
+    intro: "Quality inverter solutions in Nemilichery.",
+    description: "Premium inverter services in Nemilichery, Chennai. Professional installation and maintenance for reliable power backup.",
+    keywords: "inverter installation Nemilichery, inverter service Nemilichery, quality inverter Nemilichery, reliable power Nemilichery"
+  },
+  palavanthangal: { 
+    name: "Palavanthangal", 
+    intro: "Trusted inverter services in Palavanthangal.",
+    description: "Reliable inverter solutions in Palavanthangal, Chennai. Professional installation and maintenance for uninterrupted power supply.",
+    keywords: "inverter installation Palavanthangal, inverter service Palavanthangal, trusted inverter Palavanthangal, power backup Palavanthangal"
+  },
+  besennagar: { 
+    name: "Besennagar", 
+    intro: "Expert inverter installation in Besennagar.",
+    description: "Professional inverter services in Besennagar, Chennai. Complete power backup solutions with professional installation.",
+    keywords: "inverter installation Besennagar, inverter service Besennagar, expert inverter Besennagar, power backup Besennagar"
+  },
+  adayar: { 
+    name: "Adayar", 
+    intro: "Premium inverter solutions in Adayar.",
+    description: "High-quality inverter services in Adayar, Chennai. Professional installation and maintenance for reliable power backup.",
+    keywords: "inverter installation Adayar, inverter service Adayar, premium inverter Adayar, reliable power Adayar"
+  },
+  adhampakkam: { 
+    name: "Adhampakkam", 
+    intro: "Professional inverter services in Adhampakkam.",
+    description: "Expert inverter solutions in Adhampakkam, Chennai. Complete power backup solutions with professional installation.",
+    keywords: "inverter installation Adhampakkam, inverter service Adhampakkam, professional inverter Adhampakkam, power solutions Adhampakkam"
+  },
+  nandhanam: { 
+    name: "Nandhanam", 
+    intro: "Complete inverter solutions in Nandhanam.",
+    description: "Full-service inverter solutions in Nandhanam, Chennai. Installation, repair, and maintenance for all your power backup needs.",
+    keywords: "inverter installation Nandhanam, inverter service Nandhanam, complete inverter solutions Nandhanam, backup power Nandhanam"
+  },
 }
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {

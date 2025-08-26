@@ -99,7 +99,7 @@ function HeroSlider() {
             {/* Content Overlay with Apex branding */}
             <div className="relative z-10 h-full flex items-center justify-center text-center text-white px-4">
               <div className="max-w-5xl">
-                <Badge className="mb-6 bg-white/20 text-white border-white/30 backdrop-blur-sm px-6 py-3 text-lg font-medium">
+                <Badge className="mb-6 bg-green-600/90 text-white border-green-700/50 backdrop-blur-sm px-6 py-3 text-lg font-medium">
                   {slide.subtitle}
                 </Badge>
                 <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight drop-shadow-2xl">

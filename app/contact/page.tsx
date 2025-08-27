@@ -29,13 +29,13 @@ export default function ContactPage() {
               <div>
 
                 <div className="space-y-4">
-                  <div className="flex items-center space-x-4 p-4 bg-primary/5 rounded-lg border border-primary/20 hover:bg-primary/10 transition-all duration-300 hover:scale-105 group">
-                    <Phone className="h-6 w-6 text-primary transition-transform duration-200 group-hover:rotate-12" />
+                  <div className="flex items-center space-x-4 p-4 bg-green-50 rounded-lg border border-green-200 hover:bg-green-100 transition-all duration-300 hover:scale-105 group">
+                    <Phone className="h-6 w-6 text-green-600 transition-transform duration-200 group-hover:rotate-12" />
                     <div>
                       <div className="font-semibold">Call Us Now</div>
                       <a
                         href="tel:+919962861772"
-                        className="text-2xl font-bold text-primary hover:underline transition-all duration-200"
+                        className="text-2xl font-bold text-green-600 hover:underline transition-all duration-200"
                       >
                         +91 9962861772
                       </a>
@@ -43,13 +43,13 @@ export default function ContactPage() {
                   </div>
 
                   <div className="flex items-center space-x-4 hover:scale-105 transition-transform duration-300">
-                    <Mail className="h-5 w-5 text-primary" />
+                    <Mail className="h-5 w-5 text-green-600" />
                     <div>
                       <div className="font-medium">Email</div>
                       <div className="text-muted-foreground">
                         <a
                           href="mailto:info@apexinverter.in"
-                          className="hover:text-primary transition-colors duration-200"
+                          className="hover:text-green-600 transition-colors duration-200"
                         >
                           info@apexinverter.in
                         </a>
@@ -58,7 +58,7 @@ export default function ContactPage() {
                   </div>
 
                   <div className="flex items-center space-x-4 hover:scale-105 transition-transform duration-300">
-                    <MapPin className="h-5 w-5 text-primary" />
+                    <MapPin className="h-5 w-5 text-green-600" />
                     <div>
                       <div className="font-medium">Service Area</div>
                       <div className="text-muted-foreground">Pan India Service Available</div>
@@ -72,8 +72,8 @@ export default function ContactPage() {
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   {["Instant price quotes", "Free site assessment", "Expert consultation", "Customized solutions"].map(
                     (benefit, i) => (
-                      <div key={i} className="flex items-center justify-center space-x-2 p-3 bg-primary/5 rounded-lg hover:scale-105 transition-transform duration-200">
-                        <Star className="h-4 w-4 text-primary" />
+                      <div key={i} className="flex items-center justify-center space-x-2 p-3 bg-black/5 hover:bg-black/10 rounded-lg hover:scale-105 transition-all duration-200">
+                        <Star className="h-4 w-4 text-green-700" />
                         <span className="text-sm font-medium">{benefit}</span>
                       </div>
                     ),
@@ -110,7 +110,7 @@ export default function ContactPage() {
                       href="https://maps.google.com/?q=Chennai,Tamil+Nadu,India"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center bg-primary text-primary-foreground px-6 py-3 rounded-lg hover:bg-primary/90 transition-all duration-300 hover:scale-105"
+                      className="inline-flex items-center bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-all duration-300 hover:scale-105"
                     >
                       <MapPin className="mr-2 h-4 w-4" />
                       View on Google Maps

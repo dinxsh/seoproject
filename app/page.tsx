@@ -232,7 +232,7 @@ export default function HomePage() {
             <a href="tel:+919962861772" className="block sm:hidden">
               <Button
                 size="lg"
-                className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 transition-all duration-300 hover:scale-105 hover:shadow-lg group w-full"
+                className="text-lg px-8 py-6 bg-green-600 hover:bg-green-700 text-white transition-all duration-300 hover:scale-105 hover:shadow-lg group w-full"
               >
                 <Phone className="mr-2 h-5 w-5 transition-transform duration-200 group-hover:rotate-12" />
                 Call Now
@@ -241,7 +241,7 @@ export default function HomePage() {
             <a href="tel:+919962861772" className="hidden sm:block">
               <Button
                 size="lg"
-                className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 transition-all duration-300 hover:scale-105 hover:shadow-lg group"
+                className="text-lg px-8 py-6 bg-green-600 hover:bg-green-700 text-white transition-all duration-300 hover:scale-105 hover:shadow-lg group"
               >
                 <Phone className="mr-2 h-5 w-5 transition-transform duration-200 group-hover:rotate-12" />
                 Contact Us
@@ -250,8 +250,7 @@ export default function HomePage() {
             <a href="tel:+919962861772">
               <Button
                 size="lg"
-                variant="outline"
-                className="text-lg px-8 py-6 bg-transparent transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-primary/5"
+                className="text-lg px-8 py-6 bg-green-600 hover:bg-green-700 text-white transition-all duration-300 hover:scale-105 hover:shadow-lg"
               >
                 Get Free Quote
               </Button>
@@ -297,7 +296,7 @@ export default function HomePage() {
             {SERVICES.map((service, index) => (
               <Card
                 key={index}
-                className="text-center hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 group animate-in slide-in-from-bottom duration-700"
+                className="text-center hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 group animate-in slide-in-from-bottom duration-700 border border-green-200"
                 style={{ animationDelay: `${index * 150}ms` }}
               >
                 <CardHeader>
@@ -329,7 +328,7 @@ export default function HomePage() {
             {SERVICE_BENEFITS.map((item, index) => (
               <Card
                 key={index}
-                className="text-center hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 group animate-in slide-in-from-bottom duration-700"
+                className="text-center hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 group animate-in slide-in-from-bottom duration-700 border border-green-200"
                 style={{ animationDelay: `${index * 200}ms` }}
               >
                 <CardHeader>
@@ -387,12 +386,12 @@ export default function HomePage() {
                 </ul>
                 <div className="space-y-4">
                   <Link href="/products?brand=LUMINOUS">
-                    <Button className="w-full transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                    <Button className="w-full bg-green-600 hover:bg-green-700 text-white transition-all duration-300 hover:scale-105 hover:shadow-lg">
                       View Details
                     </Button>
                   </Link>
                   <a href="tel:+919962861772">
-                    <Button variant="outline" className="w-full transition-all duration-300">
+                    <Button className="w-full bg-green-600 hover:bg-green-700 text-white transition-all duration-300">
                       <Phone className="mr-2 h-4 w-4" />
                       Call Now
                     </Button>
@@ -432,12 +431,12 @@ export default function HomePage() {
                 </ul>
                 <div className="space-y-4">
                   <Link href="/products?brand=MICROTEK">
-                    <Button className="w-full transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                    <Button className="w-full bg-green-600 hover:bg-green-700 text-white transition-all duration-300 hover:scale-105 hover:shadow-lg">
                       View Details
                     </Button>
                   </Link>
                   <a href="tel:+919962861772">
-                    <Button variant="outline" className="w-full transition-all duration-300">
+                    <Button className="w-full bg-green-600 hover:bg-green-700 text-white transition-all duration-300">
                       <Phone className="mr-2 h-4 w-4" />
                       Call Now
                     </Button>
@@ -474,12 +473,12 @@ export default function HomePage() {
                 </ul>
                 <div className="space-y-4">
                   <Link href="/products?brand=SF SONIC">
-                    <Button className="w-full transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                    <Button className="w-full bg-green-600 hover:bg-green-700 text-white transition-all duration-300 hover:scale-105 hover:shadow-lg">
                       View Details
                     </Button>
                   </Link>
                   <a href="tel:+919962861772">
-                    <Button variant="outline" className="w-full transition-all duration-300">
+                    <Button className="w-full bg-green-600 hover:bg-green-700 text-white transition-all duration-300">
                       <Phone className="mr-2 h-4 w-4" />
                       Call Now
                     </Button>
@@ -491,7 +490,7 @@ export default function HomePage() {
           
           <div className="text-center mt-12 animate-in slide-in-from-bottom duration-700 delay-600">
             <Link href="/products">
-              <Button size="lg" variant="outline" className="text-lg px-8 py-4 hover:scale-105 transition-all duration-300">
+              <Button size="lg" className="text-lg px-8 py-4 bg-green-600 hover:bg-green-700 text-white hover:scale-105 transition-all duration-300">
                 Browse All Products
                 <span className="ml-2">→</span>
               </Button>
@@ -520,7 +519,7 @@ export default function HomePage() {
             ].map((service, index) => (
               <Card
                 key={index}
-                className="text-center hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 group animate-in slide-in-from-bottom duration-700"
+                className="text-center hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 group animate-in slide-in-from-bottom duration-700 border border-green-200"
                 style={{ animationDelay: `${index * 150}ms` }}
               >
                 <CardHeader>
@@ -606,8 +605,8 @@ export default function HomePage() {
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   {["Instant price quotes", "Free site assessment", "Expert consultation", "Customized solutions"].map(
                     (benefit, i) => (
-                      <div key={i} className="flex items-center justify-center space-x-2 p-3 bg-primary/5 rounded-lg hover:scale-105 transition-transform duration-200">
-                        <Star className="h-4 w-4 text-primary" />
+                      <div key={i} className="flex items-center justify-center space-x-2 p-3 bg-black/5 hover:bg-black/10 rounded-lg hover:scale-105 transition-all duration-200">
+                        <Star className="h-4 w-4 text-green-700" />
                         <span className="text-sm font-medium">{benefit}</span>
                       </div>
                     ),

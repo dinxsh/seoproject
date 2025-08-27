@@ -37,7 +37,7 @@ export default function AboutPage() {
                 cutting-edge inverter technology that powers homes and businesses nationwide.
               </p>
               <a href="tel:+919962861772">
-                <Button size="lg" className="transition-all duration-300 hover:scale-105 hover:shadow-lg group">
+                <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white transition-all duration-300 hover:scale-105 hover:shadow-lg group">
                   <Phone className="mr-2 h-5 w-5 transition-transform duration-200 group-hover:rotate-12" />
                   Contact Us
                 </Button>

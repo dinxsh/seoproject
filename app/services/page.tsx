@@ -75,8 +75,7 @@ export default function ServicesPage() {
                   <p className="text-muted-foreground mb-4">{service.desc}</p>
                   <a href="tel:+919962861772">
                     <Button
-                      variant="outline"
-                      className="w-full bg-transparent transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-primary/5 group/btn"
+                      className="w-full bg-green-600 hover:bg-green-700 text-white transition-all duration-300 hover:scale-105 hover:shadow-lg group/btn"
                     >
                       <Phone className="mr-2 h-4 w-4 transition-transform duration-200 group-hover/btn:rotate-12" />
                       Contact Us

@@ -137,8 +137,7 @@ export function BlogSection() {
                 </div>
                 <a href={`/blog/${post.slug}`}>
                   <Button 
-                    variant="outline" 
-                    className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300"
+                    className="w-full bg-green-600 hover:bg-green-700 text-white transition-all duration-300"
                   >
                     Read More
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-200 group-hover:translate-x-1" />
@@ -151,7 +150,7 @@ export function BlogSection() {
         
         <div className="text-center mt-12">
           <a href="/blog">
-            <Button size="lg" className="bg-primary hover:bg-primary/90">
+            <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white">
               View All Articles
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>

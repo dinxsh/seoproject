@@ -1,5 +1,6 @@
 import { SharedHeader } from "@/components/shared-header"
 import { SharedFooter } from "@/components/shared-footer"
+import { Star } from "lucide-react"
 import type { Metadata } from "next"
 
 const localities = [
@@ -116,9 +117,10 @@ export default function LocationsIndexPage() {
               <a
                 key={loc.slug}
                 href={`/locations/${loc.slug}`}
-                className="block p-4 border rounded-lg hover:border-primary hover:bg-primary/5 transition-colors text-center"
+                className="flex items-center justify-center space-x-2 p-3 bg-black/5 hover:bg-black/10 rounded-lg hover:scale-105 transition-all duration-200"
               >
-                {loc.name}
+                <Star className="h-4 w-4 text-green-700" />
+                <span className="text-sm font-medium">{loc.name}</span>
               </a>
             ))}
           </div>

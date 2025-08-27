@@ -189,6 +189,7 @@ export default function ProductCatalogue() {
             <div className="flex items-center gap-2 bg-gray-100 p-1 rounded-xl">
               <button
                 onClick={() => setViewMode('grid')}
+                aria-label="Grid view"
                 className={`p-2 rounded-lg transition-all ${
                   viewMode === 'grid' 
                     ? 'bg-white text-blue-600 shadow-md' 
@@ -199,6 +200,7 @@ export default function ProductCatalogue() {
               </button>
               <button
                 onClick={() => setViewMode('list')}
+                aria-label="List view"
                 className={`p-2 rounded-lg transition-all ${
                   viewMode === 'list' 
                     ? 'bg-white text-blue-600 shadow-md' 
@@ -281,7 +283,7 @@ export default function ProductCatalogue() {
             <Package className="w-20 h-20 text-gray-400 mx-auto mb-6" />
             <h3 className="text-2xl font-medium text-gray-900 mb-2">No products found</h3>
             <p className="text-gray-600 mb-6">Try adjusting your filters or search terms.</p>
-            <Button onClick={clearFilters} className="bg-blue-600 hover:bg-blue-700">
+            <Button onClick={clearFilters} className="bg-green-600 hover:bg-green-700 text-white">
               Clear All Filters
             </Button>
           </div>
@@ -379,7 +381,7 @@ export default function ProductCatalogue() {
                   <div className="flex gap-2 w-full">
                     <Button 
                       onClick={() => handleQuoteRequest(product)}
-                      className="flex-1 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 h-12 rounded-xl"
+                      className="flex-1 bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 h-12 rounded-xl"
                     >
                       <Zap className="w-5 h-5 mr-2" />
                       Get Quote

@@ -50,7 +50,7 @@ export function SharedHeader() {
             {/* Contact Us Button */}
             <a
               href="tel:+919962861772"
-              className="hidden sm:flex items-center space-x-2 bg-primary text-primary-foreground px-4 py-2 rounded-lg hover:bg-primary/90 transition-all duration-300 font-semibold hover:scale-105 hover:shadow-lg group"
+              className="hidden sm:flex items-center space-x-2 bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-all duration-300 font-semibold hover:scale-105 hover:shadow-lg group"
             >
               <Phone className="h-4 w-4 transition-transform duration-200 group-hover:rotate-12" />
               <span>Contact Us</span>
@@ -59,7 +59,7 @@ export function SharedHeader() {
             {/* Mobile Phone Button */}
             <a
               href="tel:+919962861772"
-              className="sm:hidden flex items-center justify-center w-10 h-10 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-all duration-300 hover:scale-105"
+              className="sm:hidden flex items-center justify-center w-10 h-10 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-all duration-300 hover:scale-105"
               aria-label="Call +91 9962861772"
             >
               <Phone className="h-4 w-4" />

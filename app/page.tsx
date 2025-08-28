@@ -600,7 +600,7 @@ export default function HomePage() {
                 </div>
               </div>
 
-              <div className="text-center">
+              <div className="text-center bg-green-50 p-6 rounded-lg border border-green-100">
                 <h3 className="text-xl font-semibold mb-4">Why Call Us?</h3>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   {["Instant price quotes", "Free site assessment", "Expert consultation", "Customized solutions"].map(

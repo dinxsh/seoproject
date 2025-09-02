@@ -9,7 +9,23 @@ export const metadata: Metadata = {
   title: "Inverter Tips & Guides | Seasonal Care, Maintenance, Performance",
   description:
     "Expert inverter tips and guides for summer, monsoon, and winter. Learn maintenance best practices, protection steps, and performance optimization.",
+  keywords: [
+    "inverter tips", "inverter guides", "inverter maintenance", "seasonal inverter care",
+    "summer inverter tips", "monsoon inverter care", "winter inverter maintenance",
+    "inverter performance", "battery care", "inverter troubleshooting", "power backup tips"
+  ],
   alternates: { canonical: "/blog" },
+  openGraph: {
+    title: "Inverter Tips & Guides | Seasonal Care, Maintenance, Performance",
+    description: "Expert inverter tips and guides for summer, monsoon, and winter. Learn maintenance best practices and performance optimization.",
+    url: "/blog",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Inverter Tips & Guides | Seasonal Care, Maintenance, Performance",
+    description: "Expert inverter tips and guides for summer, monsoon, and winter. Learn maintenance best practices and performance optimization.",
+  },
 }
 
 const posts = [

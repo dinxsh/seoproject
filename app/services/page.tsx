@@ -1,3 +1,4 @@
+import type { Metadata } from "next"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Phone, Zap, Shield, Users, Clock, Settings } from "lucide-react"
@@ -5,6 +6,23 @@ import { SharedHeader } from "@/components/shared-header"
 import { SharedFooter } from "@/components/shared-footer"
 import { ExitIntentPopup } from "@/components/exit-intent-popup"
 import { InstallationGuide } from "@/components/installation-guide"
+
+export const metadata: Metadata = {
+  title: "Inverter Services | Installation, Maintenance & Repair",
+  description: "Professional inverter services including installation, maintenance, repair, and 24/7 support. Expert technicians serving Chennai and surrounding areas with reliable power backup solutions.",
+  keywords: [
+    "inverter services", "inverter installation", "inverter maintenance", "inverter repair",
+    "power backup services", "UPS service", "battery service", "inverter support",
+    "Chennai inverter service", "professional installation", "24/7 support"
+  ],
+  alternates: { canonical: "/services" },
+  openGraph: {
+    title: "Inverter Services | Installation, Maintenance & Repair",
+    description: "Professional inverter services including installation, maintenance, repair, and 24/7 support. Expert technicians serving Chennai.",
+    url: "/services",
+    type: "website",
+  },
+}
 
 export default function ServicesPage() {
   return (

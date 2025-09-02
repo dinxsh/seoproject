@@ -501,7 +501,73 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
   const loc = LOCATIONS[params.slug]
   if (!loc) return null
   return (
-    <div className="min-h-screen bg-background">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "@id": `https://apexpowerbatteries.in/locations/${params.slug}`,
+            name: `Apex Inverter India - ${loc.name}`,
+            description: loc.description,
+            url: `https://apexpowerbatteries.in/locations/${params.slug}`,
+            telephone: "+91-9962861772",
+            email: "info@apexpowerbatteries.in",
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: loc.name,
+              addressRegion: "Chennai",
+              addressCountry: "IN"
+            },
+            geo: {
+              "@type": "GeoCoordinates",
+              addressLocality: loc.name,
+              addressRegion: "Chennai"
+            },
+            serviceArea: {
+              "@type": "City",
+              name: loc.name
+            },
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Inverter Services",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Inverter Installation",
+                    description: `Professional inverter installation service in ${loc.name}`
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Inverter Maintenance",
+                    description: `Regular inverter maintenance and repair in ${loc.name}`
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Battery Replacement",
+                    description: `Battery replacement and maintenance service in ${loc.name}`
+                  }
+                }
+              ]
+            },
+            parentOrganization: {
+              "@type": "Organization",
+              name: "Apex Inverter India",
+              url: "https://apexpowerbatteries.in"
+            }
+          }),
+        }}
+      />
+      <div className="min-h-screen bg-background">
       <SharedHeader />
 
       <section className="py-20 px-4">
@@ -586,5 +652,6 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
 
       <SharedFooter />
     </div>
+    </>
   )
 }

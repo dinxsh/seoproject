@@ -1,9 +1,27 @@
+import type { Metadata } from "next"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Phone, Shield, Users, Award } from "lucide-react"
 import { SharedHeader } from "@/components/shared-header"
 import { SharedFooter } from "@/components/shared-footer"
 import { ExitIntentPopup } from "@/components/exit-intent-popup"
+
+export const metadata: Metadata = {
+  title: "About Apex Inverter India | Leading Power Backup Solutions",
+  description: "Learn about Apex Inverter India's journey in revolutionizing power backup solutions. With years of expertise, we provide premium inverter products and exceptional service across India.",
+  keywords: [
+    "about apex inverter", "inverter company", "power backup company", "inverter manufacturer",
+    "inverter supplier", "Apex Inverter history", "inverter expertise", "power solutions company",
+    "Chennai inverter company", "Tamil Nadu inverter", "inverter business"
+  ],
+  alternates: { canonical: "/about" },
+  openGraph: {
+    title: "About Apex Inverter India | Leading Power Backup Solutions",
+    description: "Learn about Apex Inverter India's journey in revolutionizing power backup solutions. With years of expertise, we provide premium inverter products.",
+    url: "/about",
+    type: "website",
+  },
+}
 
 export default function AboutPage() {
   return (

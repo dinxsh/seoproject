@@ -5,14 +5,24 @@ import { GeistMono } from "geist/font/mono"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Apex Inverter India | Best Inverter Solutions | Call +91 9962861772",
+  title: {
+    default: "Apex Inverter India | Best Inverter Solutions | Call +91 9962861772",
+    template: "%s | Apex Inverter India"
+  },
   description:
     "Leading inverter supplier in India. Premium quality power backup inverters for home & commercial use. Expert installation & 24/7 support. Call +91 9962861772 for best prices.",
-  keywords:
-    "inverters India, best inverters, power backup solutions, inverter installation, UPS systems, +91 9962861772, Apex Inverter, inverter installation shop in kolathur, inverter sales and service in kolathur",
-  authors: [{ name: "Apex Inverter India" }],
+  keywords: [
+    "inverters India", "best inverters", "power backup solutions", "inverter installation", 
+    "UPS systems", "Apex Inverter", "inverter installation shop in kolathur", 
+    "inverter sales and service in kolathur", "inverter repair", "inverter maintenance",
+    "battery backup", "power inverter", "home inverter", "commercial inverter",
+    "Chennai inverter", "Tamil Nadu inverter", "inverter service center"
+  ],
+  authors: [{ name: "Apex Inverter India", url: "https://apexpowerbatteries.in" }],
   creator: "Apex Inverter India",
   publisher: "Apex Inverter India",
+  category: "Technology",
+  classification: "Business",
   formatDetection: {
     email: false,
     address: false,
@@ -21,6 +31,14 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://apexpowerbatteries.in"),
   alternates: {
     canonical: "/",
+    languages: {
+      'en-IN': '/',
+    },
+  },
+  verification: {
+    google: "your-google-verification-code",
+    yandex: "your-yandex-verification-code",
+    yahoo: "your-yahoo-verification-code",
   },
   openGraph: {
     title: "Apex Inverter India | Best Inverter Solutions | Call +91 9962861772",
@@ -30,12 +48,23 @@ export const metadata: Metadata = {
     siteName: "Apex Inverter India",
     locale: "en_IN",
     type: "website",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Apex Inverter India - Best Inverter Solutions",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Apex Inverter India | Best Inverter Solutions | Call +91 9962861772",
     description:
       "Leading inverter supplier in India. Premium quality power backup inverters for home & commercial use. Professional inverter installation shop in Kolathur with sales and service.",
+    images: ["/logo.png"],
+    creator: "@apexinverterindia",
+    site: "@apexinverterindia",
   },
   robots: {
     index: true,
@@ -59,26 +88,86 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#16a34a" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="Apex Inverter" />
+        <link rel="apple-touch-icon" href="/logo.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
+              "@id": "https://apexpowerbatteries.in/#business",
               name: "Apex Inverter India",
+              alternateName: "Apex Power Batteries",
               description:
                 "Leading inverter supplier in India with premium quality power backup products and expert installation services. Professional inverter installation shop in Kolathur with complete sales and service solutions.",
               telephone: "+91-9962861772",
+              email: "info@apexpowerbatteries.in",
               url: "https://apexpowerbatteries.in",
+              logo: "https://apexpowerbatteries.in/logo.png",
+              image: "https://apexpowerbatteries.in/logo.png",
               address: {
                 "@type": "PostalAddress",
                 addressCountry: "IN",
+                addressRegion: "Tamil Nadu",
+                addressLocality: "Chennai"
+              },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: "13.0827",
+                longitude: "80.2707"
               },
               openingHours: "Mo-Su 09:00-18:00",
               priceRange: "$$",
-              serviceArea: {
-                "@type": "Country",
-                name: "India",
+              paymentAccepted: ["Cash", "Credit Card", "UPI", "Net Banking"],
+              currenciesAccepted: "INR",
+              serviceArea: [
+                {
+                  "@type": "City",
+                  name: "Chennai"
+                },
+                {
+                  "@type": "State",
+                  name: "Tamil Nadu"
+                },
+                {
+                  "@type": "Country",
+                  name: "India"
+                }
+              ],
+              hasOfferCatalog: {
+                "@type": "OfferCatalog",
+                name: "Inverter Services",
+                itemListElement: [
+                  {
+                    "@type": "Offer",
+                    itemOffered: {
+                      "@type": "Service",
+                      name: "Inverter Installation",
+                      description: "Professional inverter installation service"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    itemOffered: {
+                      "@type": "Service",
+                      name: "Inverter Maintenance",
+                      description: "Regular inverter maintenance and repair"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    itemOffered: {
+                      "@type": "Service",
+                      name: "Battery Replacement",
+                      description: "Battery replacement and maintenance service"
+                    }
+                  }
+                ]
               },
               aggregateRating: {
                 "@type": "AggregateRating",
@@ -114,6 +203,11 @@ export default function RootLayout({
                   },
                   reviewBody: "Best inverter solutions in Chennai. Highly recommended for their expertise and support."
                 }
+              ],
+              sameAs: [
+                "https://www.facebook.com/apexinverterindia",
+                "https://www.instagram.com/apexinverterindia",
+                "https://www.linkedin.com/company/apexinverterindia"
               ]
             }),
           }}

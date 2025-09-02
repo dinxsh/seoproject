@@ -6,13 +6,67 @@ export const metadata: Metadata = {
   title: "Summer Inverter Maintenance Tips | Keep Your Inverter Cool & Efficient",
   description:
     "Learn how to maintain your inverter during summer: cooling tips, battery care, ventilation, dust cleaning, and load management.",
+  keywords: [
+    "summer inverter maintenance", "inverter cooling tips", "battery care summer", 
+    "inverter ventilation", "dust cleaning inverter", "load management inverter",
+    "hot weather inverter", "inverter efficiency", "summer power backup", "inverter protection"
+  ],
   alternates: { canonical: "/blog/summer-inverter-maintenance-tips" },
+  openGraph: {
+    title: "Summer Inverter Maintenance Tips | Keep Your Inverter Cool & Efficient",
+    description: "Learn how to maintain your inverter during summer: cooling tips, battery care, ventilation, dust cleaning, and load management.",
+    url: "/blog/summer-inverter-maintenance-tips",
+    type: "article",
+    publishedTime: "2024-06-01T00:00:00.000Z",
+    authors: ["Apex Inverter India"],
+    tags: ["inverter maintenance", "summer care", "battery care", "cooling tips"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Summer Inverter Maintenance Tips | Keep Your Inverter Cool & Efficient",
+    description: "Learn how to maintain your inverter during summer: cooling tips, battery care, ventilation, dust cleaning, and load management.",
+  },
 }
 
 export default function SummerMaintenancePage() {
   return (
-    <article className="py-20 md:py-24 px-4 md:px-6">
-      <div className="container mx-auto max-w-3xl md:max-w-4xl">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: "Summer Inverter Maintenance Tips | Keep Your Inverter Cool & Efficient",
+            description: "Learn how to maintain your inverter during summer: cooling tips, battery care, ventilation, dust cleaning, and load management.",
+            image: "https://apexpowerbatteries.in/placeholder.jpg",
+            author: {
+              "@type": "Organization",
+              name: "Apex Inverter India",
+              url: "https://apexpowerbatteries.in"
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "Apex Inverter India",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://apexpowerbatteries.in/logo.png"
+              }
+            },
+            datePublished: "2024-06-01T00:00:00.000Z",
+            dateModified: "2024-06-01T00:00:00.000Z",
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id": "https://apexpowerbatteries.in/blog/summer-inverter-maintenance-tips"
+            },
+            keywords: "summer inverter maintenance, inverter cooling tips, battery care summer, inverter ventilation, dust cleaning inverter, load management inverter",
+            articleSection: "Maintenance",
+            wordCount: 1200
+          }),
+        }}
+      />
+      <article className="py-20 md:py-24 px-4 md:px-6">
+        <div className="container mx-auto max-w-3xl md:max-w-4xl">
         <nav className="text-sm text-muted-foreground mb-8 md:mb-10">
           <a href="/" className="hover:text-primary">Home</a> / <a href="/blog" className="hover:text-primary">Blog</a> / <span className="text-foreground">Summer Inverter Maintenance Tips</span>
         </nav>
@@ -119,5 +173,6 @@ export default function SummerMaintenancePage() {
         />
       </div>
     </article>
+    </>
   )
 }

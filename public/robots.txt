@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://apexinverterindia.com/sitemap.xml
+Sitemap: https://apexpowerbatteries.in/sitemap.xml
 
 # Crawl-delay for respectful crawling
 Crawl-delay: 1

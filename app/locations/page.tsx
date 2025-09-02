@@ -88,7 +88,7 @@ const localities = [
 export const metadata: Metadata = {
   title: "Chennai Inverter Service Locations | Apex Inverter India",
   description: "Professional inverter installation and service across 50+ locations in Chennai including Anna Nagar, T Nagar, Adyar, Velachery, Porur, Poonamallee, Avadi, and more. Get expert backup power solutions.",
-  keywords: "inverter installation Chennai, inverter service Chennai, backup power Chennai, inverter repair Chennai, inverter maintenance Chennai, Chennai locations, Anna Nagar, T Nagar, Adyar, Velachery, Porur, Poonamallee, Avadi, Thiruvallur, Guindy, Nanganallur, Mylapore, Nungambakkam, Kilpauk, Chetpet, Koyambedu",
+  keywords: "inverter installation Chennai, inverter service Chennai, backup power Chennai, inverter repair Chennai, inverter maintenance Chennai, Chennai locations, Anna Nagar, T Nagar, Adyar, Velachery, Porur, Poonamallee, Avadi, Thiruvallur, Guindy, Nanganallur, Mylapore, Nungambakkam, Kilpauk, Chetpet, Koyambedu, Kolathur, inverter installation shop in kolathur, inverter sales and service in kolathur",
   alternates: { canonical: "/locations" },
   openGraph: {
     title: "Chennai Inverter Service Locations | Apex Inverter India",

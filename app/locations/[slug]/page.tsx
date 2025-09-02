@@ -408,9 +408,9 @@ const LOCATIONS: Record<string, { name: string; intro: string; description: stri
   },
   kolathur: { 
     name: "Kolathur", 
-    intro: "Professional inverter services in Kolathur.",
-    description: "Expert inverter installation and maintenance in Kolathur, Chennai. Reliable backup power solutions for homes and businesses.",
-    keywords: "inverter installation Kolathur, inverter service Kolathur, backup power Kolathur, inverter repair Kolathur"
+    intro: "Professional inverter installation shop in Kolathur with sales and service.",
+    description: "Leading inverter installation shop in Kolathur, Chennai. Complete inverter sales and service solutions for homes and businesses. Expert installation, repair, and maintenance services.",
+    keywords: "inverter installation shop in kolathur, inverter sales and service in kolathur, inverter service Kolathur, backup power Kolathur, inverter repair Kolathur"
   },
   periyarnagar: { 
     name: "Periyarnagar", 

@@ -293,6 +293,12 @@ const LOCATIONS: Record<string, { name: string; intro: string; description: stri
     description: "Premium inverter services in Kellys, Chennai. Professional installation and maintenance for reliable power backup.",
     keywords: "inverter installation Kellys, inverter service Kellys, quality inverter Kellys"
   },
+  kolathur: { 
+    name: "Kolathur", 
+    intro: "Professional inverter installation shop in Kolathur with sales and service.",
+    description: "Leading inverter installation shop in Kolathur, Chennai. Complete inverter sales and service solutions for homes and businesses. Expert installation, repair, and maintenance services.",
+    keywords: "inverter installation shop in kolathur, inverter sales and service in kolathur, inverter service Kolathur, backup power Kolathur, inverter repair Kolathur"
+  },
   kilpauk: { 
     name: "Kilpauk", 
     intro: "Trusted inverter installation in Kilpauk.",
@@ -463,7 +469,7 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
                     <h4 className="font-medium mb-2">Residential Areas:</h4>
                     <ul className="text-muted-foreground space-y-1">
                       <li>• Apartments & Flats</li>
-                      <li>• Independent Houses</li>
+                    <li>• Independent Houses</li>
                       <li>• Gated Communities</li>
                     </ul>
                   </div>

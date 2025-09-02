@@ -59,7 +59,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section id="home" className="py-20 px-4 animate-in fade-in duration-1000">
         <div className="container mx-auto text-center">
-          <Badge className="mb-4 bg-primary/10 text-primary border-primary/20 animate-in slide-in-from-top duration-700 delay-200">
+          <Badge className="mb-4 bg-primary/10 text-primary border-primary/20 animate-in slide-in-from-top duration-700 delay-200 text-base sm:text-lg md:text-xl lg:text-2xl px-3 py-1.5">
             India's #1 Inverter Solutions
           </Badge>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent animate-in slide-in-from-bottom duration-700 delay-300">

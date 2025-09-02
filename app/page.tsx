@@ -1,14 +1,170 @@
+"use client"
+
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Phone, Mail, MapPin, Zap, Shield, Clock, Users, Star, CheckCircle } from "lucide-react"
+import { Phone, Mail, MapPin, Zap, Shield, Clock, Users, Star, CheckCircle, ChevronLeft, ChevronRight, Battery } from "lucide-react"
 import { SharedHeader } from "@/components/shared-header"
 import { SharedFooter } from "@/components/shared-footer"
 import { BlogSection } from "@/components/blog-section"
 import { QASection } from "@/components/qa-section"
 import { CaseStudies } from "@/components/case-studies"
 import { ExitIntentPopup } from "@/components/exit-intent-popup"
+import { useState, useEffect } from "react"
+
+// Hero slider data with local images and Apex branding
+
+// Hero Slider Component
+function HeroSlider() {
+  const [currentSlide, setCurrentSlide] = useState(0)
+  
+  // Hero slides with Apex Inverter branding
+  const heroSlides = [
+    {
+      id: 1,
+      image: "/products/homepage/istockphoto-2154527171-612x612.jpg",
+      title: "Uninterrupted Power, Unlimited Possibilities",
+      subtitle: "Apex Inverter Solutions",
+      description: "Experience seamless power backup with our advanced inverter technology designed for modern homes and businesses."
+    },
+    {
+      id: 2,
+      image: "/products/homepage/istockphoto-1474252728-612x612.jpg", 
+      title: "Power Your Life Seamlessly",
+      subtitle: "Advanced Energy Solutions",
+      description: "Transform your energy backup experience with intelligent power management and cutting-edge technology."
+    },
+    {
+      id: 3,
+      image: "/products/homepage/istockphoto-1620576275-612x612.jpg",
+      title: "Where Power Meets Perfection", 
+      subtitle: "Premium Inverter Technology",
+      description: "Discover reliable power solutions that deliver consistent performance when you need it most."
+    },
+    {
+      id: 4,
+      image: "/products/homepage/istockphoto-1035493040-612x612.jpg",
+      title: "Beyond Backup, Pure Performance",
+      subtitle: "Next-Gen Power Systems", 
+      description: "Engineered for excellence, our inverters provide unmatched reliability and efficiency for every application."
+    }
+  ]
+  
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % heroSlides.length)
+    }, 6000)
+    
+    return () => clearInterval(timer)
+  }, [heroSlides.length])
+  
+  const goToSlide = (index: number) => {
+    setCurrentSlide(index)
+  }
+  
+  const goToPrevious = () => {
+    setCurrentSlide((prev) => (prev - 1 + heroSlides.length) % heroSlides.length)
+  }
+  
+  const goToNext = () => {
+    setCurrentSlide((prev) => (prev + 1) % heroSlides.length)
+  }
+  
+  return (
+    <section className="relative h-[600px] md:h-[700px] overflow-hidden bg-gradient-to-br from-blue-900 via-indigo-900 to-purple-900">
+      {/* Slider Container */}
+      <div className="relative h-full">
+        {heroSlides.map((slide, index) => (
+          <div
+            key={slide.id}
+            className={`absolute inset-0 transition-all duration-1000 ease-in-out ${
+              index === currentSlide ? 'opacity-100 scale-100' : 'opacity-0 scale-105'
+            }`}
+          >
+            {/* Background Image with improved quality */}
+            <div className="absolute inset-0">
+              <img
+                src={slide.image}
+                alt={slide.title}
+                className="w-full h-full object-cover object-center"
+                style={{
+                  imageRendering: 'auto'
+                }}
+              />
+              {/* Enhanced overlay for better text readability */}
+              <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-black/60"></div>
+            </div>
+            
+            {/* Content Overlay with Apex branding */}
+            <div className="relative z-10 h-full flex items-center justify-center text-center text-white px-4">
+              <div className="max-w-5xl">
+                <Badge className="mb-6 bg-green-600/90 text-white border-green-700/50 backdrop-blur-sm px-6 py-3 text-lg font-medium">
+                  {slide.subtitle}
+                </Badge>
+                <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight drop-shadow-2xl">
+                  {slide.title}
+                </h1>
+                <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto leading-relaxed drop-shadow-lg">
+                  {slide.description}
+                </p>
+                <div className="flex justify-center">
+                  <a href="tel:+919962861772">
+                    <Button size="lg" className="bg-green-600 hover:bg-green-700 text-xl px-10 py-4 hover:scale-105 transition-all duration-300 shadow-2xl">
+                      <Phone className="mr-3 h-6 w-6" />
+                      Get Quote Now
+                    </Button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+      
+      {/* Enhanced Navigation Arrows */}
+      <button
+        onClick={goToPrevious}
+        className="absolute left-6 top-1/2 transform -translate-y-1/2 bg-white/20 hover:bg-white/30 text-white p-4 rounded-full backdrop-blur-sm transition-all duration-300 hover:scale-110 border border-white/30"
+        aria-label="Previous slide"
+      >
+        <ChevronLeft className="h-8 w-8" />
+      </button>
+      
+      <button
+        onClick={goToNext}
+        className="absolute right-6 top-1/2 transform -translate-y-1/2 bg-white/20 hover:bg-white/30 text-white p-4 rounded-full backdrop-blur-sm transition-all duration-300 hover:scale-110 border border-white/30"
+        aria-label="Next slide"
+      >
+        <ChevronRight className="h-8 w-8" />
+      </button>
+      
+      {/* Enhanced Dots Indicator */}
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-3">
+        {heroSlides.map((_, index) => (
+          <button
+            key={index}
+            onClick={() => goToSlide(index)}
+            className={`w-4 h-4 rounded-full transition-all duration-300 border-2 ${
+              index === currentSlide 
+                ? 'bg-white scale-125 border-white' 
+                : 'bg-white/30 border-white/50 hover:bg-white/50 hover:scale-110'
+            }`}
+            aria-label={`Go to slide ${index + 1}`}
+          />
+        ))}
+      </div>
+      
+      {/* Progress Bar */}
+      <div className="absolute bottom-0 left-0 w-full h-1 bg-white/20">
+        <div 
+          className="h-full bg-gradient-to-r from-blue-500 to-purple-500 transition-all duration-1000 ease-linear"
+          style={{ width: `${((currentSlide + 1) / heroSlides.length) * 100}%` }}
+        />
+      </div>
+    </section>
+  )
+}
 
 const SERVICES = [
   {
@@ -56,10 +212,13 @@ export default function HomePage() {
     <div className="min-h-screen bg-background">
       <SharedHeader />
 
+      {/* Hero Slider */}
+      <HeroSlider />
+
       {/* Hero Section */}
       <section id="home" className="py-20 px-4 animate-in fade-in duration-1000">
         <div className="container mx-auto text-center">
-          <Badge className="mb-4 bg-primary/10 text-primary border-primary/20 animate-in slide-in-from-top duration-700 delay-200 text-base sm:text-lg md:text-xl lg:text-2xl px-3 py-1.5">
+          <Badge className="mb-4 bg-primary/10 text-primary border-primary/20 animate-in slide-in-from-top duration-700 delay-200">
             India's #1 Inverter Solutions
           </Badge>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent animate-in slide-in-from-bottom duration-700 delay-300">
@@ -73,7 +232,7 @@ export default function HomePage() {
             <a href="tel:+919962861772" className="block sm:hidden">
               <Button
                 size="lg"
-                className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 transition-all duration-300 hover:scale-105 hover:shadow-lg group w-full"
+                className="text-lg px-8 py-6 bg-green-600 hover:bg-green-700 text-white transition-all duration-300 hover:scale-105 hover:shadow-lg group w-full"
               >
                 <Phone className="mr-2 h-5 w-5 transition-transform duration-200 group-hover:rotate-12" />
                 Call Now
@@ -82,7 +241,7 @@ export default function HomePage() {
             <a href="tel:+919962861772" className="hidden sm:block">
               <Button
                 size="lg"
-                className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 transition-all duration-300 hover:scale-105 hover:shadow-lg group"
+                className="text-lg px-8 py-6 bg-green-600 hover:bg-green-700 text-white transition-all duration-300 hover:scale-105 hover:shadow-lg group"
               >
                 <Phone className="mr-2 h-5 w-5 transition-transform duration-200 group-hover:rotate-12" />
                 Contact Us
@@ -91,8 +250,7 @@ export default function HomePage() {
             <a href="tel:+919962861772">
               <Button
                 size="lg"
-                variant="outline"
-                className="text-lg px-8 py-6 bg-transparent transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-primary/5"
+                className="text-lg px-8 py-6 bg-green-600 hover:bg-green-700 text-white transition-all duration-300 hover:scale-105 hover:shadow-lg"
               >
                 Get Free Quote
               </Button>
@@ -138,7 +296,7 @@ export default function HomePage() {
             {SERVICES.map((service, index) => (
               <Card
                 key={index}
-                className="text-center hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 group animate-in slide-in-from-bottom duration-700"
+                className="text-center hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 group animate-in slide-in-from-bottom duration-700 border border-green-200"
                 style={{ animationDelay: `${index * 150}ms` }}
               >
                 <CardHeader>
@@ -170,7 +328,7 @@ export default function HomePage() {
             {SERVICE_BENEFITS.map((item, index) => (
               <Card
                 key={index}
-                className="text-center hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 group animate-in slide-in-from-bottom duration-700"
+                className="text-center hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 group animate-in slide-in-from-bottom duration-700 border border-green-200"
                 style={{ animationDelay: `${index * 200}ms` }}
               >
                 <CardHeader>
@@ -202,7 +360,7 @@ export default function HomePage() {
             <Card className="hover:shadow-xl transition-all duration-500 border-2 hover:border-primary/20 hover:scale-105 hover:-translate-y-2 group animate-in slide-in-from-left duration-700">
               <div className="h-48 bg-gray-100 rounded-t-lg overflow-hidden">
                 <img
-                  src="/products/luminous/luminous-default.png"
+                  src="/products/homeproducts/228_Luminous eco volt + 1050.png"
                   alt="LUMINOUS Zelio 1100 - 900VA pure sine wave smart display inverter - வீட்டு இன்வர்டர்"
                   title="வீட்டு பயன்பாட்டிற்கான இன்வர்டர் - Home Inverter for residential use"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -228,12 +386,12 @@ export default function HomePage() {
                 </ul>
                 <div className="space-y-4">
                   <Link href="/products?brand=LUMINOUS">
-                    <Button className="w-full transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                    <Button className="w-full bg-green-600 hover:bg-green-700 text-white transition-all duration-300 hover:scale-105 hover:shadow-lg">
                       View Details
                     </Button>
                   </Link>
                   <a href="tel:+919962861772">
-                    <Button variant="outline" className="w-full transition-all duration-300">
+                    <Button className="w-full bg-green-600 hover:bg-green-700 text-white transition-all duration-300">
                       <Phone className="mr-2 h-4 w-4" />
                       Call Now
                     </Button>
@@ -248,7 +406,7 @@ export default function HomePage() {
               </Badge>
               <div className="h-48 bg-gray-100 rounded-t-lg overflow-hidden">
                 <img
-                  src="/products/microtek/microtek-default.png"
+                  src="/products/homeproducts/microtek-mtktu1k5s-mtktu1k5s-pure-sine-wave-inverter-detail-1722619600668.webp"
                   alt="MICROTEK Online UPS 2kVA - High Frequency Online UPS IGBT Based 72V"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
@@ -273,12 +431,12 @@ export default function HomePage() {
                 </ul>
                 <div className="space-y-4">
                   <Link href="/products?brand=MICROTEK">
-                    <Button className="w-full transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                    <Button className="w-full bg-green-600 hover:bg-green-700 text-white transition-all duration-300 hover:scale-105 hover:shadow-lg">
                       View Details
                     </Button>
                   </Link>
                   <a href="tel:+919962861772">
-                    <Button variant="outline" className="w-full transition-all duration-300">
+                    <Button className="w-full bg-green-600 hover:bg-green-700 text-white transition-all duration-300">
                       <Phone className="mr-2 h-4 w-4" />
                       Call Now
                     </Button>
@@ -290,7 +448,7 @@ export default function HomePage() {
             <Card className="hover:shadow-xl transition-all duration-500 border-2 hover:border-primary/20 hover:scale-105 hover:-translate-y-2 group animate-in slide-in-from-right duration-700 delay-400">
               <div className="h-48 bg-gray-100 rounded-t-lg overflow-hidden">
                 <img
-                  src="/products/sf-sonic/sf-sonic-default.png"
+                  src="/products/homeproducts/2A1915524B_1554010274_combo-5_sm1000.jpg"
                   alt="SF SONIC Solar Hybrid Inverter 2 - Advanced solar hybrid backup optimization"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
@@ -315,12 +473,12 @@ export default function HomePage() {
                 </ul>
                 <div className="space-y-4">
                   <Link href="/products?brand=SF SONIC">
-                    <Button className="w-full transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                    <Button className="w-full bg-green-600 hover:bg-green-700 text-white transition-all duration-300 hover:scale-105 hover:shadow-lg">
                       View Details
                     </Button>
                   </Link>
                   <a href="tel:+919962861772">
-                    <Button variant="outline" className="w-full transition-all duration-300">
+                    <Button className="w-full bg-green-600 hover:bg-green-700 text-white transition-all duration-300">
                       <Phone className="mr-2 h-4 w-4" />
                       Call Now
                     </Button>
@@ -332,7 +490,7 @@ export default function HomePage() {
           
           <div className="text-center mt-12 animate-in slide-in-from-bottom duration-700 delay-600">
             <Link href="/products">
-              <Button size="lg" variant="outline" className="text-lg px-8 py-4 hover:scale-105 transition-all duration-300">
+              <Button size="lg" className="text-lg px-8 py-4 bg-green-600 hover:bg-green-700 text-white hover:scale-105 transition-all duration-300">
                 Browse All Products
                 <span className="ml-2">→</span>
               </Button>
@@ -361,7 +519,7 @@ export default function HomePage() {
             ].map((service, index) => (
               <Card
                 key={index}
-                className="text-center hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 group animate-in slide-in-from-bottom duration-700"
+                className="text-center hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 group animate-in slide-in-from-bottom duration-700 border border-green-200"
                 style={{ animationDelay: `${index * 150}ms` }}
               >
                 <CardHeader>
@@ -442,13 +600,13 @@ export default function HomePage() {
                 </div>
               </div>
 
-              <div className="text-center">
+              <div className="text-center bg-green-50 p-6 rounded-lg border border-green-100">
                 <h3 className="text-xl font-semibold mb-4">Why Call Us?</h3>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   {["Instant price quotes", "Free site assessment", "Expert consultation", "Customized solutions"].map(
                     (benefit, i) => (
-                      <div key={i} className="flex items-center justify-center space-x-2 p-3 bg-primary/5 rounded-lg hover:scale-105 transition-transform duration-200">
-                        <Star className="h-4 w-4 text-primary" />
+                      <div key={i} className="flex items-center justify-center space-x-2 p-3 bg-black/5 hover:bg-black/10 rounded-lg hover:scale-105 transition-all duration-200">
+                        <Star className="h-4 w-4 text-green-700" />
                         <span className="text-sm font-medium">{benefit}</span>
                       </div>
                     ),

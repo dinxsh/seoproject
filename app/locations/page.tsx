@@ -1,5 +1,6 @@
 import { SharedHeader } from "@/components/shared-header"
 import { SharedFooter } from "@/components/shared-footer"
+import { Star } from "lucide-react"
 import type { Metadata } from "next"
 
 const localities = [
@@ -51,19 +52,43 @@ const localities = [
   { name: "Mylapore", slug: "mylapore" },
   { name: "Nungambakkam", slug: "nungambakkam" },
   { name: "Kellys", slug: "kellys" },
-  { name: "Kolathur", slug: "kolathur" },
   { name: "Kilpauk", slug: "kilpauk" },
   { name: "Chetpet", slug: "chetpet" },
   { name: "Ashoknagar", slug: "ashoknagar" },
   { name: "Arumbakkam", slug: "arumbakkam" },
   { name: "Koyambedu", slug: "koyambedu" },
   { name: "Madhuravayal", slug: "madhuravayal" },
+  { name: "Kadhirvedu", slug: "kadhirvedu" },
+  { name: "Kavangarai", slug: "kavangarai" },
+  { name: "Thiruniruyur", slug: "thiruniruyur" },
+  { name: "Thiruvanmiyur", slug: "thiruvanmiyur" },
+  { name: "Tharamani", slug: "tharamani" },
+  { name: "Sholinganallur", slug: "sholinganallur" },
+  { name: "Thuraipakkam", slug: "thuraipakkam" },
+  { name: "Alapakkam", slug: "alapakkam" },
+  { name: "Valasaravakkam", slug: "valasaravakkam" },
+  { name: "Virugampakkam", slug: "virugampakkam" },
+  { name: "Mathur", slug: "mathur" },
+  { name: "Angaputhur", slug: "angaputhur" },
+  { name: "Ramapuram", slug: "ramapuram" },
+  { name: "Kolathur", slug: "kolathur" },
+  { name: "Periyarnagar", slug: "periyarnagar" },
+  { name: "GKM Colony", slug: "gkm-colony" },
+  { name: "Vysarpadi", slug: "vysarpadi" },
+  { name: "Thiruvettriyur", slug: "thiruvettriyur" },
+  { name: "Veppampattu", slug: "veppampattu" },
+  { name: "Nemilichery", slug: "nemilichery" },
+  { name: "Palavanthangal", slug: "palavanthangal" },
+  { name: "Besennagar", slug: "besennagar" },
+  { name: "Adayar", slug: "adayar" },
+  { name: "Adhampakkam", slug: "adhampakkam" },
+  { name: "Nandhanam", slug: "nandhanam" },
 ]
 
 export const metadata: Metadata = {
   title: "Chennai Inverter Service Locations | Apex Inverter India",
   description: "Professional inverter installation and service across 50+ locations in Chennai including Anna Nagar, T Nagar, Adyar, Velachery, Porur, Poonamallee, Avadi, and more. Get expert backup power solutions.",
-  keywords: "inverter installation Chennai, inverter service Chennai, backup power Chennai, inverter repair Chennai, inverter maintenance Chennai, Chennai locations, Anna Nagar, T Nagar, Adyar, Velachery, Porur, Poonamallee, Avadi, Thiruvallur, Guindy, Nanganallur, Mylapore, Nungambakkam, Kilpauk, Chetpet, Koyambedu, Kolathur, inverter installation shop in kolathur, inverter sales and service in kolathur",
+  keywords: "inverter installation Chennai, inverter service Chennai, backup power Chennai, inverter repair Chennai, inverter maintenance Chennai, Chennai locations, Anna Nagar, T Nagar, Adyar, Velachery, Porur, Poonamallee, Avadi, Thiruvallur, Guindy, Nanganallur, Mylapore, Nungambakkam, Kilpauk, Chetpet, Koyambedu",
   alternates: { canonical: "/locations" },
   openGraph: {
     title: "Chennai Inverter Service Locations | Apex Inverter India",
@@ -92,9 +117,10 @@ export default function LocationsIndexPage() {
               <a
                 key={loc.slug}
                 href={`/locations/${loc.slug}`}
-                className="block p-4 border rounded-lg hover:border-primary hover:bg-primary/5 transition-colors text-center"
+                className="flex items-center justify-center space-x-2 p-3 bg-black/5 hover:bg-black/10 rounded-lg hover:scale-105 transition-all duration-200"
               >
-                {loc.name}
+                <Star className="h-4 w-4 text-green-700" />
+                <span className="text-sm font-medium">{loc.name}</span>
               </a>
             ))}
           </div>

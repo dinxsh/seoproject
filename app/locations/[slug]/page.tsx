@@ -2,7 +2,6 @@ import type { Metadata } from "next"
 import { SharedHeader } from "@/components/shared-header"
 import { SharedFooter } from "@/components/shared-footer"
 import { Badge } from "@/components/ui/badge"
-import { useEffect } from "react"
 
 const LOCATIONS: Record<string, { name: string; intro: string; description: string; keywords: string }> = {
   "anna-nagar": { 
@@ -293,12 +292,6 @@ const LOCATIONS: Record<string, { name: string; intro: string; description: stri
     description: "Premium inverter services in Kellys, Chennai. Professional installation and maintenance for reliable power backup.",
     keywords: "inverter installation Kellys, inverter service Kellys, quality inverter Kellys"
   },
-  kolathur: { 
-    name: "Kolathur", 
-    intro: "Professional inverter installation shop in Kolathur with sales and service.",
-    description: "Leading inverter installation shop in Kolathur, Chennai. Complete inverter sales and service solutions for homes and businesses. Expert installation, repair, and maintenance services.",
-    keywords: "inverter installation shop in kolathur, inverter sales and service in kolathur, inverter service Kolathur, backup power Kolathur, inverter repair Kolathur"
-  },
   kilpauk: { 
     name: "Kilpauk", 
     intro: "Trusted inverter installation in Kilpauk.",
@@ -335,6 +328,156 @@ const LOCATIONS: Record<string, { name: string; intro: string; description: stri
     description: "Reliable inverter solutions in Madhuravayal, Chennai. Professional installation and maintenance for uninterrupted power supply.",
     keywords: "inverter installation Madhuravayal, inverter service Madhuravayal, trusted inverter Madhuravayal"
   },
+  kadhirvedu: { 
+    name: "Kadhirvedu", 
+    intro: "Professional inverter services in Kadhirvedu.",
+    description: "Expert inverter installation and maintenance in Kadhirvedu, Chennai. Reliable backup power solutions for homes and businesses.",
+    keywords: "inverter installation Kadhirvedu, inverter service Kadhirvedu, backup power Kadhirvedu, inverter repair Kadhirvedu"
+  },
+  kavangarai: { 
+    name: "Kavangarai", 
+    intro: "Quality inverter solutions in Kavangarai.",
+    description: "Premium inverter services in Kavangarai, Chennai. Professional installation and maintenance for reliable power backup.",
+    keywords: "inverter installation Kavangarai, inverter service Kavangarai, quality inverter Kavangarai, reliable power Kavangarai"
+  },
+  thiruniruyur: { 
+    name: "Thiruniruyur", 
+    intro: "Trusted inverter installation in Thiruniruyur.",
+    description: "Reliable inverter services in Thiruniruyur, Chennai. Expert installation and maintenance for uninterrupted power supply.",
+    keywords: "inverter installation Thiruniruyur, inverter service Thiruniruyur, trusted inverter Thiruniruyur, power backup Thiruniruyur"
+  },
+  thiruvanmiyur: { 
+    name: "Thiruvanmiyur", 
+    intro: "Expert inverter services in Thiruvanmiyur.",
+    description: "Professional inverter solutions in Thiruvanmiyur, Chennai. Complete power backup solutions with certified installation.",
+    keywords: "inverter installation Thiruvanmiyur, inverter service Thiruvanmiyur, expert inverter Thiruvanmiyur, power solutions Thiruvanmiyur"
+  },
+  tharamani: { 
+    name: "Tharamani", 
+    intro: "IT corridor inverter solutions in Tharamani.",
+    description: "Specialized inverter services for IT companies and offices in Tharamani, Chennai. High-performance backup power systems.",
+    keywords: "inverter installation Tharamani, IT inverter Tharamani, office inverter Tharamani, commercial inverter Tharamani"
+  },
+  sholinganallur: { 
+    name: "Sholinganallur", 
+    intro: "Premium inverter services in Sholinganallur.",
+    description: "High-quality inverter installation and service in Sholinganallur, Chennai. Professional solutions for residential and commercial needs.",
+    keywords: "inverter installation Sholinganallur, inverter service Sholinganallur, premium inverter Sholinganallur, residential inverter Sholinganallur"
+  },
+  thuraipakkam: { 
+    name: "Thuraipakkam", 
+    intro: "Complete inverter solutions in Thuraipakkam.",
+    description: "Full-service inverter solutions in Thuraipakkam, Chennai. Installation, repair, and maintenance for all your power backup needs.",
+    keywords: "inverter installation Thuraipakkam, inverter service Thuraipakkam, complete inverter solutions Thuraipakkam"
+  },
+  alapakkam: { 
+    name: "Alapakkam", 
+    intro: "Professional inverter installation in Alapakkam.",
+    description: "Expert inverter services in Alapakkam, Chennai. Reliable backup power solutions with certified technicians.",
+    keywords: "inverter installation Alapakkam, inverter service Alapakkam, professional inverter Alapakkam, backup power Alapakkam"
+  },
+  valasaravakkam: { 
+    name: "Valasaravakkam", 
+    intro: "Quality inverter solutions in Valasaravakkam.",
+    description: "Premium inverter services in Valasaravakkam, Chennai. Professional installation and maintenance for reliable power backup.",
+    keywords: "inverter installation Valasaravakkam, inverter service Valasaravakkam, quality inverter Valasaravakkam"
+  },
+  virugampakkam: { 
+    name: "Virugampakkam", 
+    intro: "Trusted inverter services in Virugampakkam.",
+    description: "Reliable inverter solutions in Virugampakkam, Chennai. Professional installation and maintenance for uninterrupted power supply.",
+    keywords: "inverter installation Virugampakkam, inverter service Virugampakkam, trusted inverter Virugampakkam"
+  },
+  mathur: { 
+    name: "Mathur", 
+    intro: "Expert inverter installation in Mathur.",
+    description: "Professional inverter services in Mathur, Chennai. Complete power backup solutions with professional installation.",
+    keywords: "inverter installation Mathur, inverter service Mathur, expert inverter Mathur, power backup Mathur"
+  },
+  angaputhur: { 
+    name: "Angaputhur", 
+    intro: "Complete inverter solutions in Angaputhur.",
+    description: "Full-service inverter solutions in Angaputhur, Chennai. Installation, repair, and maintenance for all your power backup needs.",
+    keywords: "inverter installation Angaputhur, inverter service Angaputhur, complete inverter solutions Angaputhur"
+  },
+  ramapuram: { 
+    name: "Ramapuram", 
+    intro: "Professional inverter services in Ramapuram.",
+    description: "Expert inverter solutions in Ramapuram, Chennai. Reliable backup power solutions for homes and commercial establishments.",
+    keywords: "inverter installation Ramapuram, inverter service Ramapuram, professional inverter Ramapuram, commercial inverter Ramapuram"
+  },
+  kolathur: { 
+    name: "Kolathur", 
+    intro: "Professional inverter services in Kolathur.",
+    description: "Expert inverter installation and maintenance in Kolathur, Chennai. Reliable backup power solutions for homes and businesses.",
+    keywords: "inverter installation Kolathur, inverter service Kolathur, backup power Kolathur, inverter repair Kolathur"
+  },
+  periyarnagar: { 
+    name: "Periyarnagar", 
+    intro: "Quality inverter solutions in Periyarnagar.",
+    description: "Premium inverter services in Periyarnagar, Chennai. Professional installation and maintenance for reliable power backup.",
+    keywords: "inverter installation Periyarnagar, inverter service Periyarnagar, quality inverter Periyarnagar, backup power Periyarnagar"
+  },
+  "gkm-colony": { 
+    name: "GKM Colony", 
+    intro: "Trusted inverter installation in GKM Colony.",
+    description: "Reliable inverter services in GKM Colony, Chennai. Expert installation and maintenance for uninterrupted power supply.",
+    keywords: "inverter installation GKM Colony, inverter service GKM Colony, trusted inverter GKM Colony, power backup GKM Colony"
+  },
+  vysarpadi: { 
+    name: "Vysarpadi", 
+    intro: "Expert inverter services in Vysarpadi.",
+    description: "Professional inverter solutions in Vysarpadi, Chennai. Complete power backup solutions with certified installation.",
+    keywords: "inverter installation Vysarpadi, inverter service Vysarpadi, expert inverter Vysarpadi, power solutions Vysarpadi"
+  },
+  thiruvettriyur: { 
+    name: "Thiruvettriyur", 
+    intro: "Complete inverter solutions in Thiruvettriyur.",
+    description: "Full-service inverter solutions in Thiruvettriyur, Chennai. Installation, repair, and maintenance for all your power backup needs.",
+    keywords: "inverter installation Thiruvettriyur, inverter service Thiruvettriyur, complete inverter solutions Thiruvettriyur"
+  },
+  veppampattu: { 
+    name: "Veppampattu", 
+    intro: "Professional inverter installation in Veppampattu.",
+    description: "Expert inverter services in Veppampattu, Chennai. Reliable backup power solutions with certified technicians.",
+    keywords: "inverter installation Veppampattu, inverter service Veppampattu, professional inverter Veppampattu, backup power Veppampattu"
+  },
+  nemilichery: { 
+    name: "Nemilichery", 
+    intro: "Quality inverter solutions in Nemilichery.",
+    description: "Premium inverter services in Nemilichery, Chennai. Professional installation and maintenance for reliable power backup.",
+    keywords: "inverter installation Nemilichery, inverter service Nemilichery, quality inverter Nemilichery, reliable power Nemilichery"
+  },
+  palavanthangal: { 
+    name: "Palavanthangal", 
+    intro: "Trusted inverter services in Palavanthangal.",
+    description: "Reliable inverter solutions in Palavanthangal, Chennai. Professional installation and maintenance for uninterrupted power supply.",
+    keywords: "inverter installation Palavanthangal, inverter service Palavanthangal, trusted inverter Palavanthangal, power backup Palavanthangal"
+  },
+  besennagar: { 
+    name: "Besennagar", 
+    intro: "Expert inverter installation in Besennagar.",
+    description: "Professional inverter services in Besennagar, Chennai. Complete power backup solutions with professional installation.",
+    keywords: "inverter installation Besennagar, inverter service Besennagar, expert inverter Besennagar, power backup Besennagar"
+  },
+  adayar: { 
+    name: "Adayar", 
+    intro: "Premium inverter solutions in Adayar.",
+    description: "High-quality inverter services in Adayar, Chennai. Professional installation and maintenance for reliable power backup.",
+    keywords: "inverter installation Adayar, inverter service Adayar, premium inverter Adayar, reliable power Adayar"
+  },
+  adhampakkam: { 
+    name: "Adhampakkam", 
+    intro: "Professional inverter services in Adhampakkam.",
+    description: "Expert inverter solutions in Adhampakkam, Chennai. Complete power backup solutions with professional installation.",
+    keywords: "inverter installation Adhampakkam, inverter service Adhampakkam, professional inverter Adhampakkam, power solutions Adhampakkam"
+  },
+  nandhanam: { 
+    name: "Nandhanam", 
+    intro: "Complete inverter solutions in Nandhanam.",
+    description: "Full-service inverter solutions in Nandhanam, Chennai. Installation, repair, and maintenance for all your power backup needs.",
+    keywords: "inverter installation Nandhanam, inverter service Nandhanam, complete inverter solutions Nandhanam, backup power Nandhanam"
+  },
 }
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
@@ -357,76 +500,6 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 export default function LocationPage({ params }: { params: { slug: string } }) {
   const loc = LOCATIONS[params.slug]
   if (!loc) return null
-
-  useEffect(() => {
-    // Add structured data for location page
-    const locationSchema = {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": `Apex Inverter India - ${loc.name}`,
-      "description": loc.description,
-      "url": `https://apexinverterindia.com/locations/${params.slug}`,
-      "telephone": "+919962861772",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": loc.name,
-        "addressRegion": "Chennai",
-        "addressCountry": "IN"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "addressLocality": loc.name,
-        "addressRegion": "Chennai"
-      },
-      "serviceArea": {
-        "@type": "City",
-        "name": loc.name
-      },
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Inverter Services",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Inverter Installation",
-              "description": "Professional inverter installation service"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Inverter Maintenance",
-              "description": "Regular inverter maintenance and repair"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Battery Replacement",
-              "description": "Battery replacement and maintenance service"
-            }
-          }
-        ]
-      },
-      "sameAs": [
-        "https://apexinverterindia.com"
-      ]
-    }
-
-    const script = document.createElement('script')
-    script.type = 'application/ld+json'
-    script.text = JSON.stringify(locationSchema)
-    document.head.appendChild(script)
-
-    return () => {
-      document.head.removeChild(script)
-    }
-  }, [loc, params.slug])
-
   return (
     <div className="min-h-screen bg-background">
       <SharedHeader />
@@ -469,7 +542,7 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
                     <h4 className="font-medium mb-2">Residential Areas:</h4>
                     <ul className="text-muted-foreground space-y-1">
                       <li>• Apartments & Flats</li>
-                    <li>• Independent Houses</li>
+                      <li>• Independent Houses</li>
                       <li>• Gated Communities</li>
                     </ul>
                   </div>

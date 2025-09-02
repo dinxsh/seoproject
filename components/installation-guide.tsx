@@ -202,7 +202,7 @@ export function InstallationGuide() {
             Don't risk DIY installation. Trust our certified professionals for safe and reliable setup.
           </p>
           <a href="tel:+919962861772">
-            <Button size="lg" className="bg-primary hover:bg-primary/90">
+            <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white">
               Schedule Professional Installation
             </Button>
           </a>

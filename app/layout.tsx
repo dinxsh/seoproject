@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Leading inverter supplier in India. Premium quality power backup inverters for home & commercial use. Expert installation & 24/7 support. Call +91 9962861772 for best prices.",
   keywords:
-    "inverters India, best inverters, power backup solutions, inverter installation, UPS systems, +91 9962861772, Apex Inverter, inverter installation shop in kolathur, inverter sales and service in kolathur",
+    "inverters India, best inverters, power backup solutions, inverter installation, UPS systems, +91 9962861772, Apex Inverter",
   authors: [{ name: "Apex Inverter India" }],
   creator: "Apex Inverter India",
   publisher: "Apex Inverter India",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Apex Inverter India | Best Inverter Solutions | Call +91 9962861772",
     description:
-      "Leading inverter supplier in India. Premium quality power backup inverters for home & commercial use. Expert installation & 24/7 support. Professional inverter installation shop in Kolathur with sales and service.",
+      "Leading inverter supplier in India. Premium quality power backup inverters for home & commercial use. Expert installation & 24/7 support.",
     url: "https://apexpowerbatteries.in",
     siteName: "Apex Inverter India",
     locale: "en_IN",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Apex Inverter India | Best Inverter Solutions | Call +91 9962861772",
     description:
-      "Leading inverter supplier in India. Premium quality power backup inverters for home & commercial use. Professional inverter installation shop in Kolathur with sales and service.",
+      "Leading inverter supplier in India. Premium quality power backup inverters for home & commercial use.",
   },
   robots: {
     index: true,
@@ -67,7 +67,7 @@ export default function RootLayout({
               "@type": "LocalBusiness",
               name: "Apex Inverter India",
               description:
-                "Leading inverter supplier in India with premium quality power backup products and expert installation services. Professional inverter installation shop in Kolathur with complete sales and service solutions.",
+                "Leading inverter supplier in India with premium quality power backup products and expert installation services.",
               telephone: "+91-9962861772",
               url: "https://apexpowerbatteries.in",
               address: {
